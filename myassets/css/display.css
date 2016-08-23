@@ -1,0 +1,14 @@
+.hide-on-load{
+    display: none;
+}
+
+.has-error label{
+    color:#C84F54
+}
+
+@media (min-width:992px) {
+  .halfcolumnfix{
+    width: 250%;
+  }
+
+}
