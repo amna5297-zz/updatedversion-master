@@ -9,7 +9,7 @@
     $position = $_POST["position"];
     $committeefirstpreference= $_POST["committeefirstpreference"];
     $topicsfirstpreference= $_POST["topicsfirstpreference"];
-    $committeesecondpreference= $_POST["committeesecondpreference"]; 
+    $committeesecondpreference= $_POST["committeesecondpreference"];
     $topicssecondpreference= $_POST["topicssecondpreference"];
     $motivation= $_POST["motivation"];
     $reasonfortopics= $_POST["reasonfortopics"];
@@ -21,11 +21,6 @@
     //  $stmt->execute();
 
     $conn->query($stmt);
-    $status = "y";
-
 
     $conn->close();
-
-    echo $status;
-
 ?>

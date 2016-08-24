@@ -18,7 +18,7 @@ $(document).ready(function(){
               data: values,
               dataType: "text",
               success: function( data ) {
-                  if(data == "y"){
+
                       l.stop();
                       $("html, body").animate({ scrollTop: 0 }, "slow");
                       $("#step2").addClass("active");
@@ -27,10 +27,7 @@ $(document).ready(function(){
                           $("#phasetwo").show("600");
                       });
 
-                  }
-                  else{
-                      l.stop();
-                  }
+
               }
           });
       } else{
@@ -58,7 +55,7 @@ $(document).ready(function(){
                   data: values,
                   dataType: "text",
                   success: function( data ) {
-                      if(data == "y"){
+
                           l.stop();
                           $("html, body").animate({ scrollTop: 0 }, "slow");
                           $("#step3").addClass("active");
@@ -68,10 +65,7 @@ $(document).ready(function(){
                               $("#phasethree").show("600");
                           });
 
-                      }
-                      else{
-                          l.stop();
-                      }
+
                   }
               });
           } else{
@@ -99,7 +93,7 @@ $(document).ready(function(){
                     data: values,
                     dataType: "text",
                     success: function( data ) {
-                        if(data == "y"){
+                        
                             l.stop();
                             $("html, body").animate({ scrollTop: 0 }, "slow");
                             $("#step4").addClass("active");
@@ -109,10 +103,7 @@ $(document).ready(function(){
                                 $("#phasethree").show("600");
                             });
 
-                        }
-                        else{
-                            l.stop();
-                        }
+
                     }
                 });
             } else{

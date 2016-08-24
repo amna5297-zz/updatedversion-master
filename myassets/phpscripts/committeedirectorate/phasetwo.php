@@ -16,11 +16,7 @@
     //  $stmt->execute();
 
     $conn->query($stmt);
-    $status = "y";
-
 
     $conn->close();
-
-    echo $status;
 
 ?>

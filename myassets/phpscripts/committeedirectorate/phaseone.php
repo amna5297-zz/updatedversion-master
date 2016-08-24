@@ -52,11 +52,9 @@
     }
 */
 
-    $status = "y";
     $stmt->execute();
     $stmt->close();
     $conn->close();
 
-    echo $status;
 
 ?>
