@@ -206,6 +206,6 @@ function validatePhaseTwo(){
         $("#phaseone input[name='committee']").parent().parent().addClass("has-error");
         flag=true;
       }
-
+//a random comment
       return flag;
 }
