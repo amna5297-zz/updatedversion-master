@@ -93,14 +93,14 @@ $(document).ready(function(){
                     data: values,
                     dataType: "text",
                     success: function( data ) {
-                        
+
                             l.stop();
                             $("html, body").animate({ scrollTop: 0 }, "slow");
                             $("#step4").addClass("active");
 
 
                             $("#phasethree").hide("600", function(){
-                                $("#phasethree").show("600");
+                                $("#registrationcomplete").show("600");
                             });
 
 
@@ -114,6 +114,8 @@ $(document).ready(function(){
 
 
               });
+
+
 
 });
 

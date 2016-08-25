@@ -11,6 +11,10 @@ form .row{
     margin: 0px;
 }
 
+#registrationcomplete{
+  padding: 50px;
+}
+
 #continuestepone{
     float:right;
     margin-right: 40px;
