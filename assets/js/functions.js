@@ -19,10 +19,10 @@ jQuery(document).ready(function(){
 
 jQuery(document).ready(function(){
 "use strict";
-	
+
 	// hide #back-top first
 	jQuery("#back-top").hide();
-	
+
 	// fade in #back-top
 	jQuery(function () {
 		jQuery(window).scroll(function () {
@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
 			}, 500);
 			return false;
 		});
-		
+
 				// scroll body to 0px on click
 		jQuery('a#gotop2').click(function () {
 			jQuery('body,html').animate({
@@ -48,20 +48,17 @@ jQuery(document).ready(function(){
 			}, 500);
 			return false;
 		});
-		
+
 		var jQueryih = jQuery('body').innerHeight();
-		
-		jQuery(".scroll").click(function(event){		
+
+		jQuery(".scroll").click(function(event){
 			event.preventDefault();
 			jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top - jQueryih}, 1500);
 		});
-		
-		
-		
-		
-		
+
+
+
+
+
 	});
 });
-
-
-

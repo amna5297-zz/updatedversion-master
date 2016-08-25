@@ -5,7 +5,7 @@
  *
  * Copyright 2013 Adam Coulombe
  * @license http://www.opensource.org/licenses/mit-license.html MIT License
- * @license http://www.gnu.org/licenses/gpl.html GPL2 License 
+ * @license http://www.gnu.org/licenses/gpl.html GPL2 License
  */
 
 (function ($) {
@@ -30,16 +30,16 @@
                 html = currentSelected.html() || '&nbsp;';
 
                 customSelectSpanInner.html(html);
-                
+
                 if (currentSelected.attr('disabled')) {
                 	customSelectSpan.addClass(getClass('DisabledOption'));
                 } else {
                 	customSelectSpan.removeClass(getClass('DisabledOption'));
                 }
-                
+
                 setTimeout(function () {
                     customSelectSpan.removeClass(getClass('Open'));
-                    $(document).off('mouseup.'+getClass('Open'));                  
+                    $(document).off('mouseup.'+getClass('Open'));
                 }, 60);
             },
             getClass = function(suffix){
@@ -52,7 +52,7 @@
                     customSelectSpan = $('<span />');
 
                 $select.after(customSelectSpan.append(customSelectInnerSpan));
-                
+
                 customSelectSpan.addClass(prefix);
 
                 if (options.mapClass) {
@@ -66,16 +66,16 @@
                     .addClass('hasCustomSelect')
                     .on('update', function () {
 						changed($select,customSelectSpan);
-						
+
                         var selectBoxWidth = parseInt($select.outerWidth(), 10) -
                                 (parseInt(customSelectSpan.outerWidth(), 10) -
                                     parseInt(customSelectSpan.width(), 10));
-						
+
 						// Set to inline-block before calculating outerHeight
 						customSelectSpan.css({
                             display: 'inline-block'
                         });
-						
+
                         var selectBoxHeight = customSelectSpan.outerHeight();
 
                         if ($select.attr('disabled')) {
@@ -116,7 +116,7 @@
                         customSelectSpan.removeClass(getClass('Changed'));
                     })
                     .on('mouseup', function (e) {
-                        
+
                         if( !customSelectSpan.hasClass(getClass('Open'))){
                             // if FF and there are other selects open, just apply focus
                             if($('.'+getClass('Open')).not(customSelectSpan).length>0 && typeof InstallTrigger !== 'undefined'){
