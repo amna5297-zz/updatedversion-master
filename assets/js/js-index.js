@@ -166,12 +166,8 @@ var jQueryscrollTop;
 var jQueryheaderheight;
 var jQueryloggedin = false;
 
-if(jQueryloggedin == false){
-  jQueryheaderheight = jQuery('.navbar-wrapper2').height() - 20;
-} else {
-  jQueryheaderheight = jQuery('.navbar-wrapper2').height() + 100;
-}
 
+  jQueryheaderheight = jQuery('.navbar-wrapper2').height() - 20;
 
 jQuery(window).scroll(function(){
   var jQueryiw = jQuery('body').innerWidth();
