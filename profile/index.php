@@ -12,11 +12,13 @@
       header('Location: ../login?error=2');
     }
 
+    $teamid = "";
+
     $delegateStatus = 0;
     $username = $_SESSION['username'];
 
 
-    if ($stmt = $conn->prepare("SELECT status
+    if ($stmt = $conn->prepare("SELECT id, status
         FROM DelegateStatus
        WHERE username = ?
         LIMIT 1")){
@@ -25,7 +27,7 @@
           $stmt->store_result();
 
           // get variables from result.
-          $stmt->bind_result($delegateStatus);
+          $stmt->bind_result($teamid, $delegateStatus);
           $stmt->fetch();
 
           if($stmt->num_rows == 0){
@@ -48,6 +50,7 @@ $numdelegates="";
 $delegateexp="";
 $committee="";
 $committeereason="";
+
 
   if($delegateStatus == 1){
 
@@ -111,7 +114,7 @@ $stmt->fetch();
     <!-- END HEAD -->
 
     <body>
-
+<input id="teamid" type="hidden" value="<?php echo $teamid; ?>" />
         <!-- BEGIN CONTENT BODY -->
         <div class="page-content">
 
@@ -302,7 +305,7 @@ $stmt->fetch();
                             <hr />
 
                             <div class="col-xs-6 col-xs-offset-3">
-                              <div id="myDropzone" action="../myassets/phpscripts/delegates/imagehandler.php?delegate=1" method="POST" class="dropzone dropzone-file-area dz-clickable" style="width: 100%; margin-top: 20px; margin-bottom:20px;">
+                              <div id="myDropzone" action="../myassets/phpscripts/delegates/imagehandler.php?delegate=1<?php echo "&teamid=".$teamid; ?>" method="POST" class="dropzone dropzone-file-area dz-clickable" style="width: 100%; margin-top: 20px; margin-bottom:20px;">
                                                               <h3 class="sbold">Drop files here or click to upload</h3>
                                                               <p>
                                                                 Upload the delegates picture.
@@ -480,7 +483,7 @@ $stmt->fetch();
                                 $finalString .= $delegateFormPartOne . numberInWords($i+2);
                                 $finalString .= $delegateFormPartTwo . numberInWords($i+2);
                                 $finalString .= $delegateFormPartThree . numberInWords($i+2);
-                                $finalString .= $delegateFormPartFour . ($i+2);
+                                $finalString .= $delegateFormPartFour . ($i+2) . "&teamid=".$teamid;
                                 $finalString .= $delegateFormPartFive;
 
                                 echo $finalString;

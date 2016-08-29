@@ -36,8 +36,8 @@
         $date = date("Y-m-d");
         $time = date("H:i:s");
 
-        $stmt = $conn->prepare("INSERT INTO DelegateStatus (username, status, cdate, ctime) VALUES (?, ?, ?, ?)");
-        $stmt->bind_param("ssss", $username, $stage, $date, $time);
+        $stmt = $conn->prepare("UPDATE DelegateStatus SET status = '1' WHERE username =?");
+        $stmt->bind_param("s", $username);
 
         if(!($stmt->execute())){
           $status = "n";

@@ -32,6 +32,11 @@ var dropzoneOptionsDynamic = {
 
 $(document).ready(function(){
 checkAndRemoveErrorsPhaseOne();
+    $('#continuesteptwo').click(function(e){
+        e.preventDefault();
+        alert($("#teamid").val());
+    });
+
     $('#continuestepone').click(function(e){
 
         e.preventDefault();
@@ -93,6 +98,7 @@ function addDelegatesFormFields(num){
       finalString += delegateFormPartTwo + numberInWords(i+2);
       finalString += delegateFormPartThree + numberInWords(i+2);
       finalString += delegateFormPartFour + (i+2);
+      finalString += "&teamid="+$("#teamid").val();
       finalString += delegateFormPartFive;
   }
 

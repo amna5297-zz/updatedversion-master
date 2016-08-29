@@ -3,13 +3,16 @@
 include_once("../security/functions.php");
 
 sec_session_start();
+$url =$_SERVER['REQUEST_URI'];
+$parts = parse_url($url);
+parse_str($parts['query'], $query);
+$team = $query['teamid'];
+$delegate = $query['delegate'];
 
-$uname= $_SESSION['username'];
 
 $ds = DIRECTORY_SEPARATOR;  //1
-echo $uname;
-echo "<br />";
-$storeFolder = 'uploads/'.$uname;   //2
+
+$storeFolder = 'uploads';   //2
 echo $storeFolder;
 if (!empty($_FILES)) {
 
@@ -18,11 +21,18 @@ if (!empty($_FILES)) {
      mkdir ($storeFolder, 0744);
  }
 
-    $tempFile = $_FILES['file']['tmp_name'];          //3
+ $storeFolder = $storeFolder."/".$team;
 
+ if ( !file_exists($storeFolder) ) {
+    $oldmask = umask(0);  // helpful when used in linux server
+    mkdir ($storeFolder, 0744);
+}
+
+    $tempFile = $_FILES['file']['tmp_name'];          //3
+$ext = pathinfo($tempFile, PATHINFO_EXTENSION);
     $targetPath = dirname( __FILE__ ) . $ds. $storeFolder . $ds;  //4
 
-    $targetFile =  $targetPath. $_FILES['file']['name'];  //5
+    $targetFile =  $storeFolder."/".$delegate;  //5
 
     move_uploaded_file($tempFile,$targetFile); //6
 

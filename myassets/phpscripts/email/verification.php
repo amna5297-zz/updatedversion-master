@@ -21,6 +21,26 @@
     else{
         $flag = false;
     }
+    $stage = "0";
+    $date = date("Y-m-d");
+    $time = date("H:i:s");
+
+    if ($stmt = $conn->prepare("INSERT INTO DelegateStatus
+    (username, status, cdate, ctime) values (?, ?, ?, ?)")){
+
+
+          $stmt->bind_param('ssss', $email, $stage, $date, $time);  // Bind "$email" to parameter.
+          $stmt->execute();    // Execute the prepared query.
+          $stmt->store_result();
+
+          // get variables from result.
+          $stmt->bind_result($teamid, $delegateStatus);
+          $stmt->fetch();
+
+          if($stmt->num_rows == 0){
+            $delegateStatus = 0;
+          }
+        }
 
     $conn->close();
 
