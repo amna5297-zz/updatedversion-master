@@ -129,7 +129,7 @@
 							<div class="row" style="width:150px;">
 								<ul class="droplist col-md-12">
 								  <li><a href="list.html">Visa</a></li>
-								  <li><a href="list2.html">Registration</a></li>
+								  <li><a href="login">Registration</a></li>
 								  <li><a href="list3.html">Guide</a></li>
 								</ul>
 							</div>
@@ -143,10 +143,10 @@
 							<div class="row" style="width:500px;">
 								<ul class="droplist col-md-6">
                   <li class="dropdown-header">Registration Type</li>
-								  <li><a href="list.html">Local</a></li>
-								  <li><a href="list2.html">International</a></li>
+								  <li><a href="login">Local</a></li>
+								  <li><a href="login">International</a></li>
                   <li class="dropdown-header">Have an account?</li>
-                  <li><a href="list2.html">Login</a></li>
+                  <li><a href="login">Login</a></li>
                 </ul>
                 <ul class="droplist col-md-6">
 								  <li class="dropdown-header">More Details</li>
@@ -168,6 +168,254 @@
     </div>
 	<!-- /Top wrapper -->
 
+  <div id="dajy" class="fullscreen-container mtslide sliderbg fixed">
+			<div class="fullscreenbanner">
+				<ul>
+
+					<!-- papercut fade turnoff flyin slideright slideleft slideup slidedown-->
+
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+						<img src="images/slider/rome.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo">
+							 <div class="sboxpurple textcenter">
+
+								<span class="lato size28 slim caps white"></span><br/><br/><br/>
+								<span class="lato size100 slim caps white">NIMUN '14</span><br/>
+								<span class="lato size20 normal caps white"></span><br/><br/>
+							 </div>
+						</div>
+					</li>
+
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+
+						<img src="images/slider/paris.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+                 <span class="lato size28 slim caps white"></span><br/><br/><br/>
+ 								<span class="lato size100 slim caps white">NIMUN '15</span><br/>
+ 								<span class="lato size20 normal caps white"></span><br/><br/>
+							 </div>
+						</div>
+					</li>
+
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+						<img src="images/slider/santorini.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo">
+							 <div class="sboxpurple textcenter">
+                 <span class="lato size28 slim caps white"></span><br/><br/><br/>
+ 								<span class="lato size100 slim caps white">NIMUN '16</span><br/>
+ 								<span class="lato size20 normal caps white"></span><br/><br/>
+							 </div>
+						</div>
+					</li>
+          <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+						<img src="images/slider/santorini.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo">
+							 <div class="sboxpurple textcenter">
+                 <span class="lato size28 slim caps white">and now</span><br/><br/><br/>
+ 								<span class="lato size100 slim caps white">NIMUN '17</span><br/>
+ 								<span class="lato size20 normal caps white"></span><br/><br/>
+							 </div>
+						</div>
+					</li>
+
+
+				</ul>
+				<div class="tp-bannertimer none"></div>
+			</div>
+		</div>
+
+		<!--
+		##############################
+		 - ACTIVATE THE BANNER HERE -
+		##############################
+		-->
+		<script type="text/javascript">
+
+			var tpj=jQuery;
+			tpj.noConflict();
+
+			tpj(document).ready(function() {
+
+			if (tpj.fn.cssOriginal!=undefined)
+				tpj.fn.css = tpj.fn.cssOriginal;
+
+				tpj('.fullscreenbanner').revolution(
+					{
+						delay:2200,
+						startwidth:1170,
+						startheight:600,
+
+						onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
+
+						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+						thumbHeight:50,
+						thumbAmount:3,
+
+						hideThumbs:0,
+						navigationType:"none",				// bullet, thumb, none
+						navigationArrows:"none",				// nexttobullets, solo (old name verticalcentered), none
+
+						navigationStyle:false,				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+						navigationHAlign:"left",				// Vertical Align top,center,bottom
+						navigationVAlign:"bottom",					// Horizontal Align left,center,right
+						navigationHOffset:30,
+						navigationVOffset:30,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						touchenabled:"on",						// Enable Swipe Function : on/off
+
+
+						stopAtSlide:4,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+						stopAfterLoops:0,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+						fullWidth:"on",							// Same time only Enable FullScreen of FullWidth !!
+						fullScreen:"off",						// Same time only Enable FullScreen of FullWidth !!
+
+
+						shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+					});
+
+
+		});
+		</script>
+
+    <!-- WRAP -->
+    	<div class="wrap bgfix cstyle03">
+
+
+    		<div class="lastminute lcfix">
+    			<div style="margin-top:-25px;" class="container lmc">
+    				<b>ABOUT NIMUN</b><br/>
+            <span>Some description about NIMUN...</span>
+    				<form action="details.html">
+    					<button class="btn iosbtn" type="submit">Read more</button>
+    				</form>
+    			</div>
+    		</div>
+        <div class="clearfix">
+
+        </div>
+<BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR />
+    		<div class="container cstyle07">
+
+    			  <div class="col-md-4">
+    				<div class="boxshadow center">
+    					<a href="list.html"><img src="myassets/images/botswana.jpg" alt="" class="fwimg"/></a>
+    					<div class="bscontainer">
+    						<h4 class="lato bold caps">Committees</h4>
+    						<hr>
+    						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+    						<br/>
+    						<form action="list4.html">
+    							<button class="roundbtn" type="submit">More</button>
+    						</form>
+    					</div>
+    				</div>
+    			  </div>
+    			  <div class="col-md-4">
+    				<div class="boxshadow center">
+    					<a href="list3.html"><img src="myassets/images/egypt.jpg" alt="" class="fwimg"/></a>
+    					<div class="bscontainer">
+    						<h4 class="lato bold caps">Conference</h4>
+    						<hr>
+    						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+    						<br/>
+    						<form action="list4.html">
+    							<button class="roundbtn" type="submit">More</button>
+    						</form>
+    					</div>
+    				</div>
+    			  </div>
+    			  <div class="col-md-4">
+    				<div class="boxshadow center">
+    					<a href="list4.html"><img src="myassets/images/machu_picchu.jpg" alt="" class="fwimg"/></a>
+    					<div class="bscontainer">
+    						<h4 class="lato bold caps">International</h4>
+    						<hr>
+    						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+    						<br/>
+    						<form action="list4.html">
+    							<button class="roundbtn" type="submit">More</button>
+    						</form>
+    					</div>
+    				</div>
+    			  </div>
+
+
+    		</div>
+
+
+
+
+
+
+
+    		<!-- FOOTER -->
+
+    		<div class="footerbg lcfix">
+    			<div class="container">
+    				<footer>
+    					<div class="footer">
+    						<a href="#" class="social1"><img src="myassets/images/icon-facebook.png" alt=""/></a>
+    						<a href="#" class="social2"><img src="myassets/images/icon-twitter.png" alt=""/></a>
+    						<a href="#" class="social3"><img src="myassets/images/icon-gplus.png" alt=""/></a>
+    						<a href="#" class="social4"><img src="myassets/images/icon-youtube.png" alt=""/></a>
+    						<br/><br/>
+    						Copyright &copy; 2017 <a href="#">NIMUN '17</a> All rights reserved
+    						<br/><br/>
+    						<a href="#top" class="gotop scroll"><img src="myassets/images/spacer.png" alt=""/></a>
+    					</div>
+    				</footer>
+    			</div>
+    		</div>
+
+
+
+
+
+    	</div>
+    	<!-- WRAP -->
 
 
 
