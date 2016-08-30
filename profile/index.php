@@ -131,10 +131,10 @@ $stmt->fetch();
                         <div id="step1" class="col-xs-4 bg-grey mt-step-col active">
 
                         </div>
-                        <div id="step2" class="col-xs-4 bg-grey mt-step-col <?php if($delegateStatus == 1){echo "active";} ?>">
+                        <div id="step2" class="col-xs-4 bg-grey mt-step-col <?php if($delegateStatus == (1||2)){echo "active";} ?>">
 
                         </div>
-                        <div id="step3" class="col-xs-4 bg-grey mt-step-col ">
+                        <div id="step3" class="col-xs-4 bg-grey mt-step-col <?php if($delegateStatus == 2){echo "active";}?>">
 
                         </div>
                     </div>
@@ -297,6 +297,7 @@ $stmt->fetch();
 <?php endif; ?>
 
 
+<?php if(!($delegateStatus == 2)): ?>
                 <div id="phasetwo" <?php if($delegateStatus!=1){echo('class="hide-on-load"');} ?>>
                     <form action="handler" id="delegatereg-two" style="margin-top:20px;">
                       <div class="col-md-12">
@@ -511,8 +512,8 @@ $stmt->fetch();
                       <div class="clearfix"></div>
                     </form>
                 </div>
-
-                <div id="phasethree" class="hide-on-load">
+<?php endif; ?>
+                <div id="phasethree" class="<?php if(!($delegateStatus == 2)){echo "hide-on-load";} ?>">
 
                     <div class="invoice-content-2 bordered">
            <div class="row invoice-head">

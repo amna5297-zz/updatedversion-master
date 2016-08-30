@@ -1,5 +1,6 @@
 <?php
   include_once("../myassets/phpscripts/security/functions.php");
+  include_once("../myassets/phpscripts/dbconnect.php");
   sec_session_start();
  ?>
 <!DOCTYPE html>
@@ -8,10 +9,33 @@
 
     <head>
 <?php
+$totalDelegateReg = 0;
+$totalChairApp = 0;
+
 $flag = false;
   if(isset($_SESSION['role'])){
     if($_SESSION['role'] == 'admin'){
         $flag = true;
+
+        if($stmt = $conn->prepare("SELECT COUNT(id) FROM HeadDelegates")){
+          $stmt->execute();    // Execute the prepared query.
+          $stmt->store_result();
+
+          // get variables from result.
+          $stmt->bind_result($totalDelegateReg);
+          $stmt->fetch();
+        }
+
+        if($stmt = $conn->prepare("SELECT COUNT(id) FROM CommitteeDirectorate")){
+          $stmt->execute();    // Execute the prepared query.
+          $stmt->store_result();
+
+          // get variables from result.
+          $stmt->bind_result($totalChairApp);
+          $stmt->fetch();
+        }
+
+        $conn->close();
     }
   }
 
@@ -72,6 +96,7 @@ $flag = false;
         <!-- END PAGE LEVEL STYLES -->
   <?php endif; ?>
         <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../myassets/css/display.css" rel="stylesheet" type="text/css" />
         <!-- END THEME LAYOUT STYLES -->
         <link rel="shortcut icon" href="favicon.ico" /> </head>
     <!-- END HEAD -->
@@ -128,10 +153,24 @@ $flag = false;
 
                           </a>
                       </li>
-                      <li class="nav-item start  active open">
+                      <li displayobj="dashboardcontent" class="nav-item start  active open">
+                          <a href="javascript:;" class="nav-link nav-toggle">
+                              <i class="icon-home"></i>
+                              <span class="title">Dashboard</span>
+                              <span class="arrow"></span>
+                          </a>
+                      </li>
+                      <li displayobj="regcontent" class="nav-item start">
                           <a href="javascript:;" class="nav-link nav-toggle">
                               <i class="icon-puzzle"></i>
                               <span class="title">Delegate Registrations</span>
+                              <span class="arrow"></span>
+                          </a>
+                      </li>
+                      <li displayobj="chairregcontent" class="nav-item start">
+                          <a href="javascript:;" class="nav-link nav-toggle">
+                              <i class="icon-puzzle"></i>
+                              <span class="title">Chair Registrations</span>
                               <span class="arrow"></span>
                           </a>
                       </li>
@@ -148,60 +187,171 @@ $flag = false;
               <div class="page-content">
                   <!-- BEGIN PAGE HEADER-->
 
-                  <h3 class="page-title"> Registrations
-                  </h3>
-
-                  <div class="col-md-12">
-                            <!-- BEGIN EXAMPLE TABLE PORTLET-->
-                            <div class="portlet light">
-                                <div class="portlet-body">
-
-                                    <div id="sample_1_wrapper" class="dataTables_wrapper no-footer">
-                                      <div class="table-scrollable"><table class="table table-striped table-responsive table-bordered table-hover dataTable no-footer" id="sample_1" role="grid" aria-describedby="sample_1_info">
-                                        <thead>
-                                            <tr role="row">
-                                              <th> Username </th>
-                                              <th> Status </th>
-                                              <th> Stage Date </th>
-                                              <th> Stage Time </th>
-                                              <th> Actions </th></tr>
-                                        </thead>
-                                        <tbody ng-controller="delegateRegCtrl">
-                                        <tr class="gradeX odd" role="row" ng-repeat="reg in delegateregistrations">
-                                                <td class="sorting_1"> {{reg.username}} </td>
-                                                <td>
-                                                    <span class="label label-sm label-info"> Stage {{reg.status}} </span>
-                                                </td>
-                                                <td class="center">
-                                                    {{reg.cdate}}
-                                                </td>
-                                                <td class="center"> {{reg.ctime}} </td>
-                                                <td>
-                                                    <div class="btn-group">
-                                                        <button class="btn btn-xs green dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false"> Actions
-                                                            <i class="fa fa-angle-down"></i>
-                                                        </button>
-                                                        <ul class="dropdown-menu" role="menu">
-                                                            <li>
-                                                                <a href="javascript:;">
-                                                                    <i class="icon-docs"></i> View Details </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="javascript:;">
-                                                                    <i class="icon-tag"></i> View Receipt </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                    </table></div>
-                                    </div>
+                  <div id="dashboardcontent" class="pageobj">
+                    <h3 class="page-title"> Dashboard
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat dashboard-stat-v2 blue" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-comments"></i>
                                 </div>
-                            </div>
-                            <!-- END EXAMPLE TABLE PORTLET-->
+                                <div class="details">
+                                    <div class="number">
+                                        <span><?php echo "$totalDelegateReg"; ?></span></span>
+                                    </div>
+                                    <div class="desc"> Total Registrations </div>
+                                </div>
+                            </a>
                         </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat dashboard-stat-v2 red" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-bar-chart-o"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>Rs. 0</span></div>
+                                    <div class="desc"> Total Revenue </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat dashboard-stat-v2 green" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span><?php echo $totalChairApp; ?></span>
+                                    </div>
+                                    <div class="desc"> Chair Registrations </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat dashboard-stat-v2 purple" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-globe"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>0</span></div>
+                                    <div class="desc"> Website Views </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
 
+                  <div id="regcontent" class="hide-on-load pageobj">
+                    <h3 class="page-title"> Delegate Registrations
+                    </h3>
+
+                    <div class="col-md-12">
+                              <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                              <div class="portlet light">
+                                  <div class="portlet-body">
+
+                                      <div id="sample_1_wrapper" class="dataTables_wrapper no-footer">
+                                        <div class="table-scrollable"><table class="table table-striped table-responsive table-bordered table-hover dataTable no-footer" id="sample_1" role="grid" aria-describedby="sample_1_info">
+                                          <thead>
+                                              <tr role="row">
+                                                <th> Username </th>
+                                                <th> Status </th>
+                                                <th> Stage Date </th>
+                                                <th> Stage Time </th>
+                                                <th> Actions </th></tr>
+                                          </thead>
+                                          <tbody ng-controller="delegateRegCtrl">
+                                          <tr class="gradeX odd" role="row" ng-repeat="reg in delegateregistrations">
+                                                  <td class="sorting_1"> {{reg.username}} </td>
+                                                  <td>
+                                                      <span class="label label-sm label-info"> Stage {{reg.status}} </span>
+                                                  </td>
+                                                  <td class="center">
+                                                      {{reg.cdate}}
+                                                  </td>
+                                                  <td class="center"> {{reg.ctime}} </td>
+                                                  <td>
+                                                      <div class="btn-group">
+                                                          <button class="btn btn-xs green dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false"> Actions
+                                                              <i class="fa fa-angle-down"></i>
+                                                          </button>
+                                                          <ul class="dropdown-menu" role="menu">
+                                                              <li>
+                                                                  <a href="javascript:;">
+                                                                      <i class="icon-docs"></i> View Details </a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="javascript:;">
+                                                                      <i class="icon-tag"></i> View Receipt </a>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                  </td>
+                                              </tr>
+                                              </tbody>
+                                      </table></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- END EXAMPLE TABLE PORTLET-->
+                          </div>
+                  </div>
+
+                  <div id="chairregcontent" class="hide-on-load pageobj">
+                    <h3 class="page-title"> Chair Registrations
+                    </h3>
+
+                    <div class="col-md-12">
+                      <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                      <div class="portlet light">
+                          <div class="portlet-body">
+
+                              <div id="sample_1_wrapper" class="dataTables_wrapper no-footer">
+                                <div class="table-scrollable"><table class="table table-striped table-responsive table-bordered table-hover dataTable no-footer" id="sample_1" role="grid" aria-describedby="sample_1_info">
+                                  <thead>
+                                      <tr role="row">
+                                        <th> Name </th>
+                                        <th> Email </th>
+                                        <th> Phone # </th>
+                                        <th> Country </th>
+                                        <th> Actions </th></tr>
+                                  </thead>
+                                  <tbody ng-controller="delegateRegCtrl">
+                                  <tr class="gradeX odd" role="row" ng-repeat="application in chairapplications">
+                                          <td class="sorting_1"> {{application.fullname}} </td>
+                                          <td>
+                                              {{application.email}}
+                                          </td>
+                                          <td class="center">
+                                              {{application.phone}}
+                                          </td>
+                                          <td class="center"> {{application.country}} </td>
+                                          <td>
+                                              <div class="btn-group">
+                                                  <button class="btn btn-xs green dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false"> Actions
+                                                      <i class="fa fa-angle-down"></i>
+                                                  </button>
+                                                  <ul class="dropdown-menu" role="menu">
+                                                      <li>
+                                                          <a href="javascript:;">
+                                                              <i class="icon-docs"></i> View Details </a>
+                                                      </li>
+                                                  </ul>
+                                              </div>
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                              </table></div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- END EXAMPLE TABLE PORTLET-->
+                    </div>
+                  </div>
               </div>
               <!-- END CONTENT BODY -->
           </div>
@@ -306,6 +456,7 @@ $flag = false;
         <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
 
         <script src="../myassets/js/admin/controller/controller.js" type="text/javascript"></script>
+        <script src="../myassets/js/admin/switch.js" type="text/javascript"></script>
           <?php endif; ?>
     </body>
 

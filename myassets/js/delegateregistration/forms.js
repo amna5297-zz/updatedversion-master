@@ -34,7 +34,101 @@ $(document).ready(function(){
 checkAndRemoveErrorsPhaseOne();
     $('#continuesteptwo').click(function(e){
         e.preventDefault();
-        alert($("#teamid").val());
+
+        var l = Ladda.create(this);
+        l.start();
+
+        var firstname="";
+        var lastname="";
+        var email="";
+        var phone="";
+        var gender="";
+        var cnic="";
+        var address="";
+        var city="";
+        var accommodation="";
+        var committee="";
+        var mun="";
+        var reason="";
+
+
+        $("#phasetwo input[name='firstname']").each(function(){
+            firstname += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='lastname']").each(function(){
+          $(this).val();
+            lastname += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='email']").each(function(){
+            email += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='phone']").each(function(){
+            phone += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='gender']").each(function(){
+            gender += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='gender']").each(function(){
+            gender += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='cnic']").each(function(){
+            cnic += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='address']").each(function(){
+            address += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='city']").each(function(){
+            city += $(this).val() +", ";
+        });
+
+
+        $("#phasetwo input[name='accommodation']").each(function(){
+            accommodation += $(this).val() +", ";
+        });
+
+        $("#phasetwo input[name='committee']").each(function(){
+            committee += $(this).val() +", ";
+        });
+
+        $("#phasetwo textarea[name='delegateexperience']").each(function(){
+            mun += $(this).val() +", ";
+        });
+
+        $("#phasetwo textarea[name='committeereason']").each(function(){
+            reason += $(this).val() +", ";
+        });
+
+        var teamid = $("#teamid").val();
+
+        var passdata = {firstname : firstname, lastname : lastname, email : email, phone : phone, gender : gender, cnic : cnic, address : address, city : city, accommodation : accommodation, committee : committee, mun : mun, reason : reason, teamid : teamid}
+
+        $.ajax({
+            type: "POST",
+            url:"../myassets/phpscripts/delegates/phasetwo.php",
+            data: passdata,
+            dataType: "text",
+            success: function( data ) {
+
+                if(data == "y"){
+                  $("html, body").animate({ scrollTop: 0 }, "slow");
+                  $("#step3").addClass("active");
+                }
+                else{
+                  $("#phasetwo").hide("600", function(){
+                      $("#phasethree").show("600");
+                  });
+                }
+                l.stop();
+            }
+        });
     });
 
     $('#continuestepone').click(function(e){
@@ -82,6 +176,7 @@ checkAndRemoveErrorsPhaseOne();
 
 
         });
+
 });
 
 function addDelegatesFormFields(num){

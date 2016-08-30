@@ -29,10 +29,12 @@ if (!empty($_FILES)) {
 }
 
     $tempFile = $_FILES['file']['tmp_name'];          //3
-$ext = pathinfo($tempFile, PATHINFO_EXTENSION);
+    $a = $_FILES['file']['name'];
+$ext = pathinfo($a, PATHINFO_EXTENSION);
+
     $targetPath = dirname( __FILE__ ) . $ds. $storeFolder . $ds;  //4
 
-    $targetFile =  $storeFolder."/".$delegate;  //5
+    $targetFile =  $storeFolder."/".$delegate.".".$ext;  //5
 
     move_uploaded_file($tempFile,$targetFile); //6
 
