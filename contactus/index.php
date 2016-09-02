@@ -32,6 +32,8 @@
     <!-- Picker UI-->
 	<link rel="stylesheet" href="../assets/css/jquery-ui.css" />
 
+  <link rel="stylesheet" href="../myassets/css/override.css" type="text/css" />
+
     <!-- jQuery -->
     <script src="../assets/js/jquery.v2.0.3.js"></script>
 
@@ -40,122 +42,73 @@
 
     <?php include '../partials/navbar.php';?>
 
+    <div id="dajy" class="mtslide sliderbg fixed cstyle11">
+    			<div id="map-canvas2"></div>
+    	</div>
 
-    
-    <BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR />
 
-    <div class="container cstyle08">
-      <div class="col-md-12">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <h2 class="lato bold textcenter caps size28 lblue">WE DID LIKE TO HEAR FROM YOU!</h2>
-          <BR /><BR /><BR />
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
 
-    <div class="clearfix"></div>
 
-    <div class="container cstyle08">
+    	<!-- WRAP -->
+    	<div class="wrap cstyle03">
 
-        <form action="handler" id="" style="margin-top:20px;">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="col-md-3">
-                <label class="cyan">First Name</label>
+    		<div class="container z-index100" style="margin-top:-220px;">
+    		  <div class="row">
+    			<div class="col-md-12">
+    				<div class="bs-example bs-example-tabs cstyle04">
+
+    					<div class="tab-content">
+
+    						<div class="col-md-4">
+      						<form action="#">
+      							<span class="opensans size24 slim">Contact</span>
+      							<input type="text" placeholder="Name" class="form-control logpadding margtop10">
+      							<input type="text" placeholder="Phone" class="form-control logpadding margtop20">
+      							<input type="text" placeholder="E-mail" class="form-control logpadding margtop20"></form>
+    						</div>
+    						<div class="col-md-4">
+                  <br /><br />
+    							<textarea placeholder="Write your message here..." rows="7" class="form-control margtop10"></textarea>
+    						</div>
+    						<div class="col-md-4 opensans grey">
+    							Address:<br/>
+    							<span class="dark">
+    								NUST H-12<br/>
+    								Islamabad, Pakistan<br/>
+    							</span>
+    							<br/>
+    							Phone<br/>
+    							<p class="opensans size30 cyan xslim">000-000-000</p>
+    							Email<br/>
+    							<a href="mailto:office@company.com" class="green2">email@nimun.com.pk</a>
+    						</div>
+                <div class="clearfix">
+                </div>
+    					</div>
+              <div class="clearfix">
+
               </div>
-              <div class="col-md-9">
-                <input type="text" name="firstname" placeholder="First Name" class="form-control" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="col-md-3">
-                <label class="cyan">Last Name</label>
-              </div>
-              <div class="col-md-9">
-                <input type="text" name="lastname" placeholder="Last Name" class="form-control" />
-              </div>
-            </div>
-          </div>
+    					<div class="searchbg3">
+    						<button type="submit" class="btn-search right mr20">Send Email</button>
 
-          <div class="clearfix"><BR /><BR /></div>
+    						</form>
+    					</div>
 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="col-md-3">
-                <label class="cyan">Email</label>
-              </div>
-              <div class="col-md-9">
-                <input type="email" name="email" placeholder="Email" class="form-control" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="col-md-3">
-                <label class="cyan">Phone Number</label>
-              </div>
-              <div class="col-md-9">
-                <input type="number" name="phoneno" placeholder="Phone Number" class="form-control" />
-              </div>
-            </div>
-          </div>
-
-          <div class="clearfix"><BR /><BR /></div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <div class="col-md-8">
-                <label class="cyan">Your Message</label>
-                <br>
-              </div>
-              <div class="col-sm-8">
-                <textarea class="form-control" rows="5" name="message"></textarea>
-              </div>
-
-            </div>
-          </div>
-
-        </form>
-
-    </div>
-
-    <BR /><BR /><BR /><BR /><BR /><BR />
-
-    <div class="container cstyle07" style="background:#d3d3d3;">
-      <BR /><BR /><BR />
-      <div class="col-md-12">
-        <div class="col-md-8">
-          <div class="boxshadow center">
-            <div class="google-maps">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d26570.7851620163!2d73.001048!3d33.64814!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38df9675aaaaaaab%3A0xc5180922c44eb86b!2sNUST-SEECS+(School+Of+Electrical+Engineering+and+Computer+Science)%2C+NUST+HQ%2C+Scholars+Ave%2C+Islamabad+44000%2C+Pakistan!3m2!1d33.642537!2d72.99047399999999!5e0!3m2!1sen!2sus!4v1472819404217" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <h2 class="lato bold caps size28 lblue">LET'S MEET UP!</h2>
-          <h4 class="textleft size20 grey">NUST International Model United Nations Office</h4>
-          <h4 class="textleft size20 grey">NUST Business School, NUST, H-12, Islamabad.</h4>
-          <h4 class="textleft size20 grey">Email: info@nimun.com.pk</h4>
-          <h4 class="textleft size20 grey">Phone: +92 333 810 3270</h4>
-          <h4 class="textleft size20 grey">www.nimun.com.pk</h4>
-        </div>
-      </div>
-      <div class="clearfix"><BR /><BR /></div>
-    </div>
-
-
-
-
+    				</div>
+    			</div>
+    		  </div>
+    		</div>
 
 
     <?php include '../partials/footer.php';?>
 
 
-
       <!-- Javascript -->
       <!-- This page JS -->
   	   <script src="../assets/js/js-index.js"></script>
+
+      <script src="../assets/js/initialize-google-map-contact.js"></script>
+
 
       <!-- Custom functions -->
       <script src="../assets/js/functions.js"></script>

@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-<div class="wrap bgfix cstyle03">
+
   <div class="footerbg lcfix">
     <div class="container">
       <footer>
@@ -16,4 +16,3 @@
       </footer>
     </div>
   </div>
-</div>
