@@ -38,7 +38,7 @@
   </head>
   <body id="top">
 
-    <?php include 'navbar.php';?>
+    <?php include '../partials/navbar.php';?>
 
 
     
@@ -46,12 +46,12 @@
 
     <div class="container cstyle08">
       <div class="col-md-12">
-        <div class="col-md-2"></diV>
+        <div class="col-md-2"></div>
         <div class="col-md-8">
           <h2 class="lato bold textcenter caps size28 lblue">WE DID LIKE TO HEAR FROM YOU!</h2>
           <BR /><BR /><BR />
-        </diV>
-        <div class="col-md-2"></diV>
+        </div>
+        <div class="col-md-2"></div>
       </div>
     </div>
 
@@ -109,7 +109,7 @@
                 <br>
               </div>
               <div class="col-sm-8">
-                <textarea class="form-control" rows="5" name="message" /> </textarea>
+                <textarea class="form-control" rows="5" name="message"></textarea>
               </div>
 
             </div>
@@ -129,7 +129,7 @@
             <div class="google-maps">
               <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d26570.7851620163!2d73.001048!3d33.64814!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38df9675aaaaaaab%3A0xc5180922c44eb86b!2sNUST-SEECS+(School+Of+Electrical+Engineering+and+Computer+Science)%2C+NUST+HQ%2C+Scholars+Ave%2C+Islamabad+44000%2C+Pakistan!3m2!1d33.642537!2d72.99047399999999!5e0!3m2!1sen!2sus!4v1472819404217" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-          </diV>
+          </div>
         </div>
 
         <div class="col-md-4">
@@ -149,7 +149,7 @@
 
 
 
-    <?php include 'footer.php';?>
+    <?php include '../partials/footer.php';?>
 
 
 
