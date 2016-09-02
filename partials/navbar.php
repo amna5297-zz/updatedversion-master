@@ -11,12 +11,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html" class="navbar-brand"><img src="/nimun/nimun.png" alt="NIMUN '17" class="logo"/></a>
+      <a href="index.html" class="navbar-brand"><img src="/updatedversion-master/nimun.png" alt="NIMUN '17" class="logo"/></a>
       </div>
       <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown active">
-        <a data-toggle="dropdown" class="dropdown-toggle" href="../index.html">HOME</a>
+        <a data-toggle="dropdown" class="dropdown-toggle" href="/updatedversion-master/index.html">HOME</a>
         </li>
         <li class="dropdown">
         <a data-toggle="dropdown" class="dropdown-toggle" href="#">ABOUT</a>
@@ -24,7 +24,7 @@
           <li>
             <div class="row">
               <ul class="droplist col-md-12">
-                <li><a href="MUNS.php">MUN's</a></li>
+                <li><a href="/updatedversion-master/about/muns/index.php">MUN's</a></li>
                 <li><a href="list2.html">Tourism</a></li>
                 <li><a href="list3.html">Islamabad</a></li>
                 <li><a href="list4.html">NUST</a></li>
@@ -120,7 +120,7 @@
           </li>
         </ul>
         </li>
-        <li><a href="contactus.php">CONTACT US</a></li>
+        <li><a href="/updatedversion-master/contactus/index.php">CONTACT US</a></li>
       </ul>
       </div>
       <!-- /Navigation-->
