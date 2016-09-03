@@ -60,15 +60,15 @@
     					<div class="tab-content">
 
     						<div class="col-md-4">
-      						<form action="#">
+      						<form method="post" action="/updatedversion-master/myassets/phpscripts/contactus/mail.php"  >
       							<span class="opensans size24 slim">Contact</span>
-      							<input type="text" placeholder="Name" class="form-control logpadding margtop10">
-      							<input type="text" placeholder="Phone" class="form-control logpadding margtop20">
-      							<input type="text" placeholder="E-mail" class="form-control logpadding margtop20"></form>
+      							<input type="text" name="name" placeholder="Name" class="form-control logpadding margtop10">
+      							<input type="text" name="phone" placeholder="Phone" class="form-control logpadding margtop20">
+      							<input type="text" name="email" placeholder="E-mail" class="form-control logpadding margtop20">
     						</div>
     						<div class="col-md-4">
                   <br /><br />
-    							<textarea placeholder="Write your message here..." rows="7" class="form-control margtop10"></textarea>
+    							<textarea name="message" placeholder="Write your message here..." rows="7" class="form-control margtop10"></textarea>
     						</div>
     						<div class="col-md-4 opensans grey">
     							Address:<br/>
@@ -89,7 +89,7 @@
 
               </div>
     					<div class="searchbg3">
-    						<button type="submit" class="btn-search right mr20">Send Email</button>
+    						<button type="submit" name="submit" class="btn-search right mr20">Send Email</button>
 
     						</form>
     					</div>
