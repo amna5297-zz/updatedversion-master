@@ -35,16 +35,33 @@
     <!-- jQuery -->
     <script src="../../assets/js/jquery.v2.0.3.js"></script>
 <style>
+body{
+  background-image: url(/updatedversion-master/myassets/images/about/tourism_bg.jpg);
+}
+
 .main-content{
+
+  background-color: rgba(0,0,0,0.8);
   overflow: hidden;
-  padding:20px;
+  margin:2px;
+  padding: 10px;
+  color: white;
 }
 .images img{
-  padding:10px;
+  padding:2px;
   width:100%;
+  height: 220px;
 }
 
 .box {
+
+}
+
+.title {
+  text-align:center;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-bottom: 15px;
 }
 
 .box .caption {
@@ -58,7 +75,6 @@
     -o-transition: all 200ms ease-out;
     -ms-transition: all 200ms ease-out;
     transition: all 200ms ease-out;
-    left: 0;
     visibility: hidden;
     width: 100%;
     display: block;
@@ -73,6 +89,13 @@
     transform: translateY(-100%);
 }
 
+@media screen and (max-width: 480px) {
+    .box .caption {
+        visibility: visible;
+        transform: translateY(-50%);
+    }
+}
+
 </style>
   </head>
   <body id="top">
@@ -83,11 +106,27 @@
 
     <BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR />
 
-    <div style="width:100; text-align:center">
-      <h2>Tourism in Pakistan</h2>
-    </div>
+
 
     <div class="main-content">
+
+      <div class="title">
+        <h2>Tourism in Pakistan</h2>
+        <h4>The land of pure</h4>
+        <hr>
+        <span style="text-align:left"><p>
+            The 6th largest nation of the world, Pakistan is one of the most diversified countries in the world
+            in terms of its culture, landscape and inhabitants. From some of the highest mountain peaks in the world,
+            to the fertile plains of the Indus valley and the scorching deserts in the west and south, Pakistan has
+            it all. The region is rich in heritage and historical sites, attracting thousands of tourists each year.
+            Explore the majesty encompassed within breathtaking beauty, unsullied simplicity and matchless resilience.
+            Explore Pakistan!
+        </p></span>
+      </div>
+
+
+
+
       <!-- row1 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
@@ -112,24 +151,67 @@
       <!-- row2 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism1.jpg"/>
+              <img src="/updatedversion-master/myassets/images/about/tourism4.jpg"/>
               <span class="caption">
-                <p>ghfghhg</p>
+                <p>Hunza Valley</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism2.jpg"/>
+              <img src="/updatedversion-master/myassets/images/about/tourism5.jpg"/>
               <span class="caption">
-                <p>Simple Caption</p>
+                <p>Ramkort Fort</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism3.jpg"/>
+              <img src="/updatedversion-master/myassets/images/about/tourism6.jpg"/>
               <span class="caption">
-                <p>Simple Caption</p>
+                <p>Rakaposhi, Hunza</p>
               </span>
         </div>
       </div>
+      <!-- row3 -->
+      <div class="row images">
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism7.jpg"/>
+              <span class="caption">
+                <p>image 7</p>
+              </span>
+        </div>
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism8.jpg"/>
+              <span class="caption">
+                <p>Islamabad City</p>
+              </span>
+        </div>
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism9.jpg"/>
+              <span class="caption">
+                <p>Lake Saif-ul-Malook</p>
+              </span>
+        </div>
+      </div>
+      <!-- row4 -->
+      <div class="row images">
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism10.jpg"/>
+              <span class="caption">
+                <p>image 10</p>
+              </span>
+        </div>
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism11.jpg"/>
+              <span class="caption">
+                <p>image 11</p>
+              </span>
+        </div>
+        <div class="col-sm-4 col-xs-12 box">
+              <img src="/updatedversion-master/myassets/images/about/tourism12.jpg"/>
+              <span class="caption">
+                <p>image 12</p>
+              </span>
+        </div>
+      </div>
+    </div>
 
 
 
