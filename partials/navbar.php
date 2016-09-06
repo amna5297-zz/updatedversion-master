@@ -25,7 +25,7 @@
             <div class="row">
               <ul class="droplist col-md-12">
                 <li><a href="/updatedversion-master/about/muns/index.php">MUN's</a></li>
-                <li><a href="list2.html">Tourism</a></li>
+                <li><a href="/updatedversion-master/about/tourism/index.php">Tourism</a></li>
                 <li><a href="list3.html">Islamabad</a></li>
                 <li><a href="list4.html">NUST</a></li>
               </ul>
