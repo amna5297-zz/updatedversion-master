@@ -16,7 +16,24 @@
       <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown active">
+<<<<<<< HEAD
           <a data-toggle="dropdown" class="dropdown-toggle" href="/updatedversion-master/index.html">HOME</a>
+=======
+        <a data-toggle="dropdown" class="dropdown-toggle" href="/updatedversion-master/index.html">HOME</a>
+        </li>
+        <li class="dropdown">
+        <a data-toggle="dropdown" class="dropdown-toggle" href="#">ABOUT</a>
+        <ul class="dropdown-menu posright-0">
+          <li>
+            <div class="row">
+              <ul class="droplist col-md-12">
+                <li><a href="/updatedversion-master/about/muns/index.php">MUN's</a></li>
+                <li><a href="/updatedversion-master/about/tourism/index.php">Tourism</a></li>
+                <li><a href="list3.html">Islamabad</a></li>
+                <li><a href="list4.html">NUST</a></li>
+              </ul>
+            </div>
+>>>>>>> origin/master
           </li>
           <li class="dropdown">
           <a data-toggle="dropdown" class="dropdown-toggle" href="#">ABOUT</a>
