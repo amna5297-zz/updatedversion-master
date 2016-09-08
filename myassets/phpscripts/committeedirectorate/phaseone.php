@@ -14,7 +14,6 @@
     $nationality=$_POST["nationality"];
     $institute=$_POST["institute"];
     $program=$_POST["program"];
-    $yearofstudy=$_POST["yearofstudy"];
     $address=$_POST["address"];
     $city=$_POST["city"];
     $country=$_POST["country"];
@@ -32,9 +31,9 @@
 
     // prepare and bind
 
-    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, yearofstudy, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)");
+    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)");
 
-    $stmt->bind_param("sssssssssssssssss",       $fullname, $dobs,  $gender, $nationality,  $institute, $program, $yearofstudy, $address, $city,
+    $stmt->bind_param("sssssssssssssssss",       $fullname, $dobs,  $gender, $nationality,  $institute, $program, $address, $city,
           $country, $munassociation, $email, $phone, $cnic, $skypeid, $accommodation, $visarequirement);
 
     /*
