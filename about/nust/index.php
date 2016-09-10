@@ -98,12 +98,15 @@ body{
       <!-- row1 -->
       <div class="row content">
         <div class="col-sm-7 col-xs-12">
-          <p>Founded in 1991, National University of Sciences and Technology (NUST) has gained global acclaim in a very short period of time.
-            The main campus is spread over 707 acres (2.86 km2) of land with sports grounds along with various centers and schools producing
-            extraordinary research work.
-
-            <br><br>The Centre for International Peace and Stability (CIPS), inaugurated by the UN secretary general Ban Ki-Moon promises to be an
-            independent think-thank for peace and stability, development, conflict resolution, regional studies and peacekeeping research.
+          <p>The National University of Sciences and Technology, or NUST, is one of the top-ranked universities of Pakistan. It was
+            established in 1991 to provide STEM education. It has, since then, expanded its curriculum by the addition of business and
+            social sciences departments. <br><br>
+            With a total of 20 departments and more than 1200 faculty members, over 14000 students are enrolled in the university every year.
+            This includes both national and international students, thereby forming an extremely diverse student body, with students from all
+            over, representing their regions and creating a rich cultural mix that inculcates appreciation for the distinctive contrast that
+            it creates. Majoring in disciplines that range from engineering and medical sciences to management, media studies and economics,
+            these students find a home in the beautifully landscaped campus, friends in the once-strangers, the “maestro-within” in the
+            lecture rooms and laboratories, and the unknown or un-pursued inner capabilities in the many social and academic events.
             </p>
 
         </div>
@@ -116,12 +119,10 @@ body{
       <!-- row2 -->
       <div class="row content">
         <div class="col-sm-7 col-xs-12">
-          <p>Besides constant efforts to make valuable contributions in the areas of International Relations and peace and conflict studies,
-            NUST prides itself on having its own supercomputers and state-of-the art facilities on campus. Students displaying dynamic literary,
-            creative and artistic abilities and an aptitude for co-curricular activities, demonstrates the fact that NUST is undoubtedly one of
-            the best educational institutes in the country.
-
-            <br><br>It is here where the conference will be taking place. See you in January!
+          <p>The campus itself is a fully equipped mass of buildings, grounds, hostels and cafeterias, each building with a life and story of
+            its own. The unfairly close SADA and Concordia 1, the far-off SNS and SMME (which has the best “biryani” though), the “NUST’s
+            Monal” Concordia 3, the genteel sophistication of NBS (which offers the best tea on-campus), each school is equipped with training
+            aids and sports are a large part of the student life at NUST.
             </p>
 
         </div>

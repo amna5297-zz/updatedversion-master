@@ -88,7 +88,7 @@ body{
 
       <div class="title">
         <h2 class="lato bold caps size40 lblue">Islamabad</h2>
-        <h4>Land of serenity</h4>
+        <h4>The Capital</h4>
         <hr>
       </div>
 
@@ -99,19 +99,22 @@ body{
       <!-- row1 -->
       <div class="row content">
         <div class="col-sm-7 col-xs-12">
-          <p>The so-called twin cities of Islamabad and Rawalpindi are commonly viewed as one unit, and indeed, one day the two will
-              physically merge. However, these twins, with separate ancestry and distinct personalities, are far from identical.
-              Islamabad is a late-20th-century capital laid out in straight lines and right angles: a proud metric showcase of government
-              and administration. Rawalpindi, on the other hand, grew from a ramshackle backwater village to a sprawling hub on the Grand
-              Trunk Rd during the 19th century.
-              <br>The twins’ personalities are rather like chalk and cheese: Islamabad is patently more subdued and suburban with broad
-              avenues, grassy parkland, shiny restaurants and just a whiff of the exasperating human and mechanical crush that
-              epitomises most subcontinental cities. For those with a penchant for the adrenaline-pumping hullabaloo that a typical
-              South Asian metropolis delivers, all that awaits in Rawalpindi – affectionately dubbed ‘Pindi’ – a mere 15km away.
-              <br>Nestled in the heart of Pakistan, the Federal Capital of Pakistan – Islamabad, namely – has been the centre of talk
-              and domestic tourism for over many years. Starting off as an expedition of General Ayub Khan, the city was brought to life,
-              and over the course of its existence, it has grown to become one of the most beautiful capital cities of Asia – no doubt, it
-              doesn’t hold back in the global comparison, but we’ll stick to what we know.
+          <p>Located at the foot of the Margalla hills, the capital city of Pakistan ‘Islamabad’ was constructed during the 1960’s to
+            house the country’s major governing bodies. Now, half a decade later, Islamabad is a picturesque city comprising of a population
+            of 2 million along with its neighbouring city Rawalpindi. It has also been the home of NIMUN since its inception and has hosted
+            both national and international delegates every year.
+
+            <br><br>Islamabad is a famous tourist location owing to the city’s location and scenic beauty. The Pakistan Monument rests atop the
+            Shakarparian hills and represents Pakistan’s four provinces and three territories as four main petals of the monument represent the
+            four provinces and the three smaller petals represent the territories. Pakistan’s culture and heritage has been represented on the
+            petals in the form of beautiful carvings. The administrative backbone of the country, including the Presidency, Supreme Court, PM
+            House and Pakistan Secretariat, are located along Constitution Avenue.
+
+            <br><br>The Faisal Mosque, with a backdrop of the Margalla Hills, stands tall as the largest mosque of Pakistan and is an iconic
+            symbol of the country around the world. The mosque can be seen from miles away due to its central location. Designed by a Turkish
+            architect and financed by the late King Faisal bin Abdul-Aziz of Saudi Arabia, the mosque is unlike any other traditional mosques
+            in Pakistan and covers an area of 54,000 square feet. Accommodating around 240,000 worshippers, it is also a famous tourist
+            location.
             </p>
 
         </div>
@@ -124,23 +127,27 @@ body{
       <!-- row2 -->
       <div class="row content">
         <div class="col-sm-7 col-xs-12">
-          <p>Whether it’s the fresh air and the liveliness of the place, or whether you’re a fan of amazing food, served by spectacular
-            cuisines with beautiful views such as the Monal Restaurant or famous Chaaye Tea houses like Chaayé Khana, , or any other franchise
-            you spotted in some other city; whether it’s the crowd at the amazing Centaurus Mall that takes you by surprise, or whether it’s the
-            system that gives you a sense of peace, Islamabad has it all!
+          <p>Daman-e-Koh, located on the Margalla hills provides an expansive view of the city and is a famous destination for both the
+            residents of the city and tourists. Surrounded by the lush green Margalla hills, the road to Daman-e-Koh is a treat in itself.
+            Several hiking trails have been developed among the hills and are a popular excursion point for tourists and residents.
 
-            <br>But it’s not just the eateries and the liveliness that makes Islamabad a popular tourist destination. The serenity of the city
-            as a whole is what defines the Federal Capital. The city is nestled in the heart of the beautiful mountains of the Pakistan, and
-            Islamabad is basically the ‘transit’ city when you’re travelling to the beautiful Northern mountainous areas. It’s a beautiful
-            morning every day, and it’s a beautiful city to live in. In all, it’s the beauty of the place that takes you out every day for a
-            stroll.
+            <br><br>A compact city, Islamabad can be described as being elegantly urban with small coffee shops and food joints co-existing
+            peacefully with residential areas. Super and Jinnah Super markets are the oldest shopping locations in the area which provide
+            everything from food to clothing. The Centaurus is the city’s main shopping mall fulfilling all retail needs of the city’s
+            residents.
 
-            <br>Enter Islamabad, and you’ll discover the amazing Education City of NUST at the start. This 707-acre University has been the
-            proud maker of dreams for thousands of students currently enrolled at NUST. The quality of education and the vast opportunities
-            that it provides makes NUST a dream university for many to study at, which is the only Pakistani university to be ranked amongst
-            top 100 on the QS University Ranking, worldwide.
+            <br><br>The Saidpur Village, located east of Daman-e-Koh is more than 500 years old. A section of the village has been converted into
+            a tourist attraction that provides a scenic view of the Margallas and several dining options that serve all types of traditional
+            Pakistani foods.
 
-            <br>Witness it all, this January, at the NUST International Model United Nations conference 2016!
+            <br><br>Perhaps Islamabad’s best offering is the Monal Restaurant located in Pir Sohawa on top of the Margalla Hills. At more than
+            3000 feet above sea level, Pir Sohawa is Islamabad’s highest spot and is a famous destination for visitors and residents both.
+            The Monal Restaurant provides an exceptional dining experience due to the view the restaurant provides and the palatable authentic
+            Pakistani cuisine made by its chefs.
+
+            <br><br>Islamabad may be a young city, but in its short history, has managed to encompass and showcase the delicate mix of all that
+            is Pakistan in all its glory.
+
             </p>
 
         </div>
