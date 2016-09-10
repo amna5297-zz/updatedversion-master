@@ -11,13 +11,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/updatedversion-master/index.html" class="navbar-brand"><img src="/updatedversion-master/nimun.png" alt="NIMUN '17" class="logo"/></a>
+          <a href="/nimun/index.html" class="navbar-brand"><img src="/nimun/nimun.png" alt="NIMUN '17" class="logo"/></a>
         </div>
 
         <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="/updatedversion-master/index.html" data-toggle="dropdown" class="dropdown-toggle" >HOME</a>
+              <a href="/nimun/index.html" >HOME</a>
             </li>
 
             <li class="dropdown">
@@ -26,10 +26,10 @@
               <li>
                 <div class="row">
                   <ul class="droplist col-md-12">
-                    <li><a href="/updatedversion-master/about/muns/index.php">MUN's</a></li>
-                    <li><a href="/updatedversion-master/about/tourism/index.php">Tourism</a></li>
-                    <li><a href="/updatedversion-master/about/islamabad/index.php">Islamabad</a></li>
-                    <li><a href="/updatedversion-master/about/nust/index.php">NUST</a></li>
+                    <li><a href="/nimun/about/muns/index.php">MUN's</a></li>
+                    <li><a href="/nimun/about/tourism/index.php">Tourism</a></li>
+                    <li><a href="/nimun/about/islamabad/index.php">Islamabad</a></li>
+                    <li><a href="/nimun/about/nust/index.php">NUST</a></li>
                   </ul>
                 </div>
               </li>
@@ -42,9 +42,9 @@
                 <li>
                   <div class="row" style="width:150px;">
                     <ul class="droplist col-md-12">
-                      <li><a href="/updatedversion-master/nimun/nimun14/index.php">NIMUN '14</a></li>
-                      <li><a href="/updatedversion-master/nimun/nimun15/index.php">NIMUN '15</a></li>
-                      <li><a href="/updatedversion-master/nimun/nimun16/index.php">NIMUN '16</a></li>
+                      <li><a href="/nimun/nimun/nimun14/index.php">NIMUN '14</a></li>
+                      <li><a href="/nimun/nimun/nimun15/index.php">NIMUN '15</a></li>
+                      <li><a href="/nimun/nimun/nimun16/index.php">NIMUN '16</a></li>
                     </ul>
                   </div>
                 </li>
@@ -62,28 +62,28 @@
                 <div class="row" style="width:650px;">
                   <ul class="droplist col-md-3">
                     <li class="dropdown-header">Details</li>
-                    <li><a href="/updatedversion-master/conference/details/committee-directors/index.php">Committee Directors</a></li>
-                    <li><a href="/updatedversion-master/conference/details/conference-fees/index.php">Conference Schedule</a></li>
-                    <li><a href="/updatedversion-master/conference/details/conference-schedule/index.php">Conference Fees</a></li>
+                    <li><a href="/nimun/conference/details/committee-directors/index.php">Committee Directors</a></li>
+                    <li><a href="/nimun/conference/details/conference-fees/index.php">Conference Schedule</a></li>
+                    <li><a href="/nimun/conference/details/conference-schedule/index.php">Conference Fees</a></li>
                   </ul>
                   <ul class="droplist col-md-3">
                     <li class="dropdown-header">Committees</li>
-                    <li><a href="/updatedversion-master/conference/committees/general-assembly/index.php">General Assembly</a></li>
-                    <li><a href="/updatedversion-master/conference/committees/programmes-and-funds/index.php">Programmes and Funds</a></li>
-                    <li><a href="/updatedversion-master/conference/committees/regional-bodies/index.php">Regional Bodies</a></li>
-                    <li><a href="/updatedversion-master/conference/committees/specialized-committees/index.php">Specialized Committees</a></li>
-                    <li><a href="/updatedversion-master/conference/committees/general-assembly/index.php">General Assembly</a></li>
+                    <li><a href="/nimun/conference/committees/general-assembly/index.php">General Assembly</a></li>
+                    <li><a href="/nimun/conference/committees/programmes-and-funds/index.php">Programmes and Funds</a></li>
+                    <li><a href="/nimun/conference/committees/regional-bodies/index.php">Regional Bodies</a></li>
+                    <li><a href="/nimun/conference/committees/specialized-committees/index.php">Specialized Committees</a></li>
+                    <li><a href="/nimun/conference/committees/general-assembly/index.php">General Assembly</a></li>
                   </ul>
                   <ul class="droplist col-md-3">
                     <li class="dropdown-header">Preparation</li>
-                    <li><a href="/updatedversion-master/conference/preparation/rules-of-procedure/index.php">Rules of Procedure</a></li>
-                    <li><a href="/updatedversion-master/conference/preparation/guides-and-downloads/index.php">Guides and Downloads</a></li>
+                    <li><a href="/nimun/conference/preparation/rules-of-procedure/index.php">Rules of Procedure</a></li>
+                    <li><a href="/nimun/conference/preparation/guides-and-downloads/index.php">Guides and Downloads</a></li>
                   </ul>
                   <ul class="droplist col-md-3">
                     <li class="dropdown-header">Logistics</li>
-                    <li><a href="/updatedversion-master/conference/logistics/gettingthere/index.php">Venue</a></li>
-                    <li><a href="/updatedversion-master/conference/logistics/accomodation/index.php">Accomodation</a></li>
-                    <li><a href="/updatedversion-master/conference/logistics/venue/index.php">Getting There</a></li>
+                    <li><a href="/nimun/conference/logistics/gettingthere/index.php">Venue</a></li>
+                    <li><a href="/nimun/conference/logistics/accomodation/index.php">Accomodation</a></li>
+                    <li><a href="/nimun/conference/logistics/venue/index.php">Getting There</a></li>
                   </ul>
                 </div>
               </li>
@@ -97,9 +97,9 @@
               <li>
                 <div class="row" style="width:150px;">
                   <ul class="droplist col-md-12">
-                    <li><a href="/updatedversion-master/international/visa/index.php">Visa</a></li>
-                    <li><a href="/updatedversion-master/international/registeration/index.php">Registration</a></li>
-                    <li><a href="/updatedversion-master/international/guide/index.php">Guide</a></li>
+                    <li><a href="/nimun/international/visa/index.php">Visa</a></li>
+                    <li><a href="/nimun/international/registeration/index.php">Registration</a></li>
+                    <li><a href="/nimun/international/guide/index.php">Guide</a></li>
                   </ul>
                 </div>
               </li>
@@ -115,7 +115,7 @@
                   <ul class="droplist col-md-6">
                     <li class="dropdown-header">Registration Type</li>
                     <li>
-                      <a href="/updatedversion-master/chairapplication/index.php">Chair Application</a>
+                      <a href="/nimun/chairapplication/index.php">Chair Application</a>
                     </li>
                     <li><a href="login">Local</a></li>
                     <li><a href="login">International</a></li>
@@ -132,7 +132,7 @@
             </ul>
           </li>
 
-          <li><a href="/updatedversion-master/contactus/index.php">CONTACT US</a></li>
+          <li><a href="/nimun/contactus/index.php">CONTACT US</a></li>
 
         </ul>
       </div>

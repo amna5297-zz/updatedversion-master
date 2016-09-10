@@ -36,7 +36,7 @@
     <script src="../../assets/js/jquery.v2.0.3.js"></script>
 <style>
 body{
-  background-image: url(/updatedversion-master/myassets/images/about/tourism_bg.jpg);
+  background-image: url(/nimun/myassets/images/about/tourism_bg.jpg);
 }
 
 .main-content{
@@ -130,19 +130,19 @@ body{
       <!-- row1 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism1.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism1.jpg"/>
               <span class="caption">
                 <p>Hunza, Phander Valley</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism2.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism2.jpg"/>
               <span class="caption">
                 <p>Hunza, Phander Valley</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism3.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism3.jpg"/>
               <span class="caption">
                 <p>Hunza, Phander Valley</p>
               </span>
@@ -151,19 +151,19 @@ body{
       <!-- row2 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism4.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism4.jpg"/>
               <span class="caption">
                 <p>Hunza Valley</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism5.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism5.jpg"/>
               <span class="caption">
                 <p>Ramkort Fort</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism6.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism6.jpg"/>
               <span class="caption">
                 <p>Rakaposhi, Hunza</p>
               </span>
@@ -172,19 +172,19 @@ body{
       <!-- row3 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism7.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism7.jpg"/>
               <span class="caption">
                 <p>image 7</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism8.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism8.jpg"/>
               <span class="caption">
                 <p>Islamabad City</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism9.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism9.jpg"/>
               <span class="caption">
                 <p>Lake Saif-ul-Malook</p>
               </span>
@@ -193,19 +193,19 @@ body{
       <!-- row4 -->
       <div class="row images">
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism10.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism10.jpg"/>
               <span class="caption">
                 <p>image 10</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism11.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism11.jpg"/>
               <span class="caption">
                 <p>image 11</p>
               </span>
         </div>
         <div class="col-sm-4 col-xs-12 box">
-              <img src="/updatedversion-master/myassets/images/about/tourism12.jpg"/>
+              <img src="/nimun/myassets/images/about/tourism12.jpg"/>
               <span class="caption">
                 <p>image 12</p>
               </span>
