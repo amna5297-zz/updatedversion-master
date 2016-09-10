@@ -36,18 +36,25 @@
     <script src="../../assets/js/jquery.v2.0.3.js"></script>
 
   </head>
+  <style>
+    body{
+      background-color: #4B92DB;
+    }
+  </style>
+
+
   <body id="top">
 
     <?php include '../../partials/navbar.php';?>
 
+    <BR /><BR /><BR /><BR /><BR /><BR />
 
 
-    <BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR />
 
     <div class="container cstyle08">
 
         <div class="col-md-8">
-          <h3 class="lato bold caps size40 lblue">What is a Model United Nations?</h3>
+          <h3 class="lato bold caps size40 white">What is a Model United Nations?</h3>
         </div>
     </div>
 
@@ -56,12 +63,12 @@
     <div class="container cstyle07">
 
         <div class="col-md-8">
-          <p class="textleft size20 grey">Model United Nations also called Mock UN is an academic simulation of the United Nations where students all around the globe pretend to be delegates from different countries & strive to suggest solutions to real world issues such as nuclear non-proliferation or climate change keeping in perspective the foreign policies of their assigned countries. In a nutshell, MUN is an excellent platform for individuals belonging to absolutely different backgrounds to sit down together avoiding the religious bigotries and social or regional discriminations and form a resolution equally set by all. As clichéd as it may seem, MUNs can be declared exemplary state-of-the-art, where delegates practice brilliant diplomacy and happen to develop impeccable leadership qualities.</p>
-          <p class="textleft size20 grey">Pakistan has been a member of United Nations since 1947. Since long, bright students all over Pakistan convene for Model United Nations practiced in the top institutes of Pakistan, for instance NUST, LUMS, GIKI etc. to work on researching, public speaking, debating, and writing skills, in addition to critical thinking, teamwork, and leadership abilities. NIMUN’16 happens to be the 5th installment of one of the major MUNs conferences held in the capital of the country, in fact all over Pakistan. If you believe you have the potential to showcase your abilities by voicing against and breaking societal taboos, Team NIMUN warmly welcomes you. Be a part of one of the biggest MUN conferences and experience the revolution within you!</p>
+          <p class="textleft size20 white">Model United Nations also called Mock UN is an academic simulation of the United Nations where students all around the globe pretend to be delegates from different countries & strive to suggest solutions to real world issues such as nuclear non-proliferation or climate change keeping in perspective the foreign policies of their assigned countries. In a nutshell, MUN is an excellent platform for individuals belonging to absolutely different backgrounds to sit down together avoiding the religious bigotries and social or regional discriminations and form a resolution equally set by all. As clichéd as it may seem, MUNs can be declared exemplary state-of-the-art, where delegates practice brilliant diplomacy and happen to develop impeccable leadership qualities.</p>
+          <p class="textleft size20 white">Pakistan has been a member of United Nations since 1947. Since long, bright students all over Pakistan convene for Model United Nations practiced in the top institutes of Pakistan, for instance NUST, LUMS, GIKI etc. to work on researching, public speaking, debating, and writing skills, in addition to critical thinking, teamwork, and leadership abilities. NIMUN’16 happens to be the 5th installment of one of the major MUNs conferences held in the capital of the country, in fact all over Pakistan. If you believe you have the potential to showcase your abilities by voicing against and breaking societal taboos, Team NIMUN warmly welcomes you. Be a part of one of the biggest MUN conferences and experience the revolution within you!</p>
         </div>
 
         <div class="col-md-4">
-          <img src="../../myassets/images/botswana.jpg" class="fwimg">
+          <img src="../../myassets/images/about/flag.png" class="fwimg">
           <BR /><BR /><BR /><BR /><BR /><BR />
           <img src="../../myassets/images/botswana.jpg" class="fwimg">
         </div>

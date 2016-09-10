@@ -44,7 +44,8 @@
 
     <?php include '../../partials/navbar.php';?>
 
-    <BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR /><BR />
+    <BR /><BR />
+    <img src="/updatedversion-master/myassets/images/international/visa/flagsmall.png" width="100%" height="15%">
 
     <div class="container cstyle08">
 
