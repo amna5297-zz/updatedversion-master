@@ -10,11 +10,11 @@
     <!-- CHANGE ignore -->
 
     <!-- Bootstrap -->
-    <link href="/updatedversion-master/myassets/dist/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="/updatedversion-master/assets/css/custom.css" rel="stylesheet" media="screen">
+    <link href="/nimun/myassets/dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/nimun/assets/css/custom.css" rel="stylesheet" media="screen">
 
     <!-- Carousel -->
-	<link href="/updatedversion-master/myassets/examples/carousel/carousel.css" rel="stylesheet">
+	<link href="/nimun/myassets/examples/carousel/carousel.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -25,18 +25,18 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>
 	<!-- Font-Awesome -->
-    <link rel="stylesheet" type="text/css" href="/updatedversion-master/assets/css/font-awesome.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/nimun/assets/css/font-awesome.css" media="screen" />
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
 
     <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="/updatedversion-master/myassets/css/fullscreen.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/updatedversion-master/myassets/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/nimun/myassets/css/fullscreen.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/nimun/myassets/rs-plugin/css/settings.css" media="screen" />
 
     <!-- Picker UI-->
-	<link rel="stylesheet" href="/updatedversion-master/assets/css/jquery-ui.css" />
+	<link rel="stylesheet" href="/nimun/assets/css/jquery-ui.css" />
 
     <!-- jQuery -->
-    <script src="/updatedversion-master/assets/js/jquery.v2.0.3.js"></script>
+    <script src="/nimun/assets/js/jquery.v2.0.3.js"></script>
 
   </head>
   <body id="top">
@@ -115,34 +115,34 @@
 
       <!-- Javascript -->
       <!-- This page JS -->
-  	   <script src="/updatedversion-master/assets/js/js-index.js"></script>
+  	   <script src="/nimun/assets/js/js-index.js"></script>
 
       <!-- Custom functions -->
-      <script src="/updatedversion-master/assets/js/functions.js"></script>
+      <script src="/nimun/assets/js/functions.js"></script>
 
       <!-- Picker UI-->
-  	  <script src="/updatedversion-master/assets/js/jquery-ui.js"></script>
+  	  <script src="/nimun/assets/js/jquery-ui.js"></script>
 
   	   <!-- Easing -->
-      <script src="/updatedversion-master/assets/js/jquery.easing.js"></script>
+      <script src="/nimun/assets/js/jquery.easing.js"></script>
 
       <!-- jQuery KenBurn Slider  -->
-      <script type="text/javascript" src="/updatedversion-master/myassets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+      <script type="text/javascript" src="/nimun/myassets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
      <!-- Nicescroll  -->
-  	  <script src="/updatedversion-master/assets/js/jquery.nicescroll.min.js"></script>
+  	  <script src="/nimun/assets/js/jquery.nicescroll.min.js"></script>
 
       <!-- CarouFredSel -->
-      <script src="/updatedversion-master/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
-      <script src="/updatedversion-master/assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
-    	<script type="text/javascript" src="/updatedversion-master/assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
-    	<script type="text/javascript" src="/updatedversion-master/assets/js/helper-plugins/jquery.transit.min.js"></script>
-    	<script type="text/javascript" src="/updatedversion-master/assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+      <script src="/nimun/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+      <script src="/nimun/assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+    	<script type="text/javascript" src="/nimun/assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+    	<script type="text/javascript" src="/nimun/assets/js/helper-plugins/jquery.transit.min.js"></script>
+    	<script type="text/javascript" src="/nimun/assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
 
         <!-- Custom Select -->
-    	<script type='text/javascript' src='/updatedversion-master/assets/js/jquery.customSelect.js'></script>
+    	<script type='text/javascript' src='/nimun/assets/js/jquery.customSelect.js'></script>
 
       <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="/updatedversion-master/myassets/dist/js/bootstrap.min.js"></script>
+      <script src="/nimun/myassets/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
