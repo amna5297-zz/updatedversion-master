@@ -648,9 +648,29 @@
                     <div class="col-md-4">
                       <!-- <input class="form-control" name="committeefirstpreference"/> -->
                       <select class="form-control" name="committeefirstpreference">
-                        <option value="IAEA" selected="selected">IAEA</option>
-                        <option value="UNIDO">UNIDO</option>
-                        <option value="WHO">WHO</option>
+                        <optgroup label="General Assembly">
+                          <option value="DISEC">Disarmament and International Security</option>
+                          <option value="EcoFin">Economic and Financial Affairs</option>
+                          <option value="SOCHUM">Social, Humanitarian and Cultural</option>
+                          <option value="SPECPOL">Special Political and Decolonization</option>
+                        </optgroup>
+                        <optgroup label="Security Council">
+                          <option value="UNSC">United Nations Security Council</option>
+                          <option value="UNMSF">United Nations Military Staff Committee</option>
+                        </optgroup>
+                        <optgroup label="Funds and Programmes">
+                          <option value="UNDP">United Nations Development Programme</option>
+                          <option value="UNICEF">United Nations International Children’s Emergency Fund</option>
+                          <option value="UNEP">United Nations Environment Programme</option>
+                          <option value="UNHCR">United Nations High Commission for Refugees</option>
+                        </optgroup>
+                        <optgroup label="Specialized Agencies">
+                          <option value="UNESCO">United Nations Educational, Scientific and Cultural Organization</option>
+                        </optgroup>
+                        <optgroup label="Regional Bodies">
+                          <option value="Consilium">The European Council</option>
+                          <option value="PCC">Pakistan Crisis Cell</option>
+                        </optgroup>
                       </select>
                     </div>
                   </div>
@@ -679,9 +699,29 @@
                     <div class="col-md-4">
                       <!-- <input class="form-control" name="committeesecondpreference"/> -->
                       <select class="form-control" name="committeesecondpreference" >
-                        <option selected="selected" value="IAEA">IAEA</option>
-                        <option value="UNIDO">UNIDO</option>
-                        <option value="WHO">WHO</option>
+                        <optgroup label="General Assembly">
+                          <option value="DISEC">Disarmament and International Security</option>
+                          <option value="EcoFin">Economic and Financial Affairs</option>
+                          <option value="SOCHUM">Social, Humanitarian and Cultural</option>
+                          <option value="SPECPOL">Special Political and Decolonization</option>
+                        </optgroup>
+                        <optgroup label="Security Council">
+                          <option value="UNSC">United Nations Security Council</option>
+                          <option value="UNMSF">United Nations Military Staff Committee</option>
+                        </optgroup>
+                        <optgroup label="Funds and Programmes">
+                          <option value="UNDP">United Nations Development Programme</option>
+                          <option value="UNICEF">United Nations International Children’s Emergency Fund</option>
+                          <option value="UNEP">United Nations Environment Programme</option>
+                          <option value="UNHCR">United Nations High Commission for Refugees</option>
+                        </optgroup>
+                        <optgroup label="Specialized Agencies">
+                          <option value="UNESCO">United Nations Educational, Scientific and Cultural Organization</option>
+                        </optgroup>
+                        <optgroup label="Regional Bodies">
+                          <option value="Consilium">The European Council</option>
+                          <option value="PCC">Pakistan Crisis Cell</option>
+                        </optgroup>
                       </select>
                     </div>
                   </div>

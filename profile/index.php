@@ -430,9 +430,36 @@ $stmt->fetch();
                                       <label>Committee</label>
                                   </div>
                                   <div class="col-md-9">
-                                      <input type="radio" <?php if($committee == 0){echo "checked";} ?> name="committee" value="0"/>&nbsp;UNSC&nbsp;&nbsp;&nbsp;
-                                      <input type="radio" <?php if($committee == 1){echo "checked";} ?> name="committee" value="1"/>&nbsp;PCC&nbsp;&nbsp;&nbsp;
-                                      <input type="radio" <?php if($committee == 2){echo "checked";} ?> name="committee" value="2"/>&nbsp;Project Based Committee
+                                      <!--
+                                      <input type="radio" <?php //if($committee == 0){echo "checked";} ?> name="committee" value="0"/>&nbsp;UNSC&nbsp;&nbsp;&nbsp;
+                                      <input type="radio" <?php //if($committee == 1){echo "checked";} ?> name="committee" value="1"/>&nbsp;PCC&nbsp;&nbsp;&nbsp;
+                                      <input type="radio" <?php //if($committee == 2){echo "checked";} ?> name="committee" value="2"/>&nbsp;Project Based Committee
+                                    -->
+                                      <select name="committee">
+                                        <optgroup label="General Assembly">
+                                          <option value="DISEC">Disarmament and International Security</option>
+                                          <option value="EcoFin">Economic and Financial Affairs</option>
+                                          <option value="SOCHUM">Social, Humanitarian and Cultural</option>
+                                          <option value="SPECPOL">Special Political and Decolonization</option>
+                                        </optgroup>
+                                        <optgroup label="Security Council">
+                                          <option value="UNSC">United Nations Security Council</option>
+                                          <option value="UNMSF">United Nations Military Staff Committee</option>
+                                        </optgroup>
+                                        <optgroup label="Funds and Programmes">
+                                          <option value="UNDP">United Nations Development Programme</option>
+                                          <option value="UNICEF">United Nations International Children’s Emergency Fund</option>
+                                          <option value="UNEP">United Nations Environment Programme</option>
+                                          <option value="UNHCR">United Nations High Commission for Refugees</option>
+                                        </optgroup>
+                                        <optgroup label="Specialized Agencies">
+                                          <option value="UNESCO">United Nations Educational, Scientific and Cultural Organization</option>
+                                        </optgroup>
+                                        <optgroup label="Regional Bodies">
+                                          <option value="Consilium">The European Council</option>
+                                          <option value="PCC">Pakistan Crisis Cell</option>
+                                        </optgroup>
+                                      </select>
                                   </div>
 
                                 </div>
