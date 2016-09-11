@@ -36,7 +36,6 @@
     <!-- jQuery -->
     <script src="../../assets/js/jquery.v2.0.3.js"></script>
 
-<<<<<<< HEAD
   </head>
   <style>
     body{
@@ -46,39 +45,21 @@
 
 
   <body id="top">
-=======
->>>>>>> origin/master
 
 
-<<<<<<< HEAD
-    <BR /><BR /><BR /><BR /><BR /><BR />
-
-
-=======
   </head>
   <body id="top" class="thebg" >
 <?php include '../../partials/navbar.php';?>
 	<div class="container breadcrub"></div>
-
+<br />
 	<!-- CONTENT -->
 	<div class="container">
 
 
-		<div class="container mt25 offset-0">
->>>>>>> origin/master
-
-
-<<<<<<< HEAD
-        <div class="col-md-8">
-          <h3 class="lato bold caps size40 white">What is a Model United Nations?</h3>
-        </div>
-    </div>
-=======
 			<!-- CONTENT -->
 			<div class="col-md-12 pagecontainer2 offset-0">
 				<div class="hpadding50c">
           <p style="text-align:center;">
->>>>>>> origin/master
 
           <img src="../../myassets/images/unitednations.png" style="width:100px;"/></p>
 					<p style="text-align:center;" class="lato size30 slim">MUN's</p>
@@ -88,20 +69,6 @@
 
 				<div class="hpadding50c">
 
-<<<<<<< HEAD
-        <div class="col-md-8">
-          <p class="textleft size20 white">Model United Nations also called Mock UN is an academic simulation of the United Nations where students all around the globe pretend to be delegates from different countries & strive to suggest solutions to real world issues such as nuclear non-proliferation or climate change keeping in perspective the foreign policies of their assigned countries. In a nutshell, MUN is an excellent platform for individuals belonging to absolutely different backgrounds to sit down together avoiding the religious bigotries and social or regional discriminations and form a resolution equally set by all. As clichéd as it may seem, MUNs can be declared exemplary state-of-the-art, where delegates practice brilliant diplomacy and happen to develop impeccable leadership qualities.</p>
-          <p class="textleft size20 white">Pakistan has been a member of United Nations since 1947. Since long, bright students all over Pakistan convene for Model United Nations practiced in the top institutes of Pakistan, for instance NUST, LUMS, GIKI etc. to work on researching, public speaking, debating, and writing skills, in addition to critical thinking, teamwork, and leadership abilities. NIMUN’16 happens to be the 5th installment of one of the major MUNs conferences held in the capital of the country, in fact all over Pakistan. If you believe you have the potential to showcase your abilities by voicing against and breaking societal taboos, Team NIMUN warmly welcomes you. Be a part of one of the biggest MUN conferences and experience the revolution within you!</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="../../myassets/images/about/flag.png" class="fwimg">
-          <BR /><BR /><BR /><BR /><BR /><BR />
-          <img src="../../myassets/images/botswana.jpg" class="fwimg">
-        </div>
-=======
-
->>>>>>> origin/master
 
 					<!-- LEFT IMG -->
 					<div class="col-md-12 cpdd01 grey2">
@@ -121,29 +88,22 @@
             <div class="line4"></div>
             The primary objective of organizing Model UN conferences is to educate participants about civics, effective communication, globalization and multilateral diplomacy. Many factors mark Model UNs as fruitful and experientially productive for its delegates, but more specifically, it is the educational benefits that contribute the most in making it count. For starters, such conferences motivate a person to learn more. It is fun to pretend being a world leader solving the world’s most important problems in 48 hours or less. Model UN activates participants’ imagination and creativity – activities that participants are naturally inclined to do. If that wasn’t reason enough, it is the fact that Model UNs complement the academic knowledge and combine it with real-world skills like critical analysis, crisis resolution, and diplomatic negotiation. Model UNs also help in the broadening of a participant’s viewpoint regarding global issues due to the representation of differing perspectives by the delegates of other countries.<br />
             It’s not all work! While the focus is on the benefits of the simulations themselves, the conference comes with perquisites such as the social events and the in-committee entertainment sessions, that brighten up the ambiance of the committee after a heated session. Participants get a chance to have fun, and that is as much a part of the MODEL UN experience as the committee sessions.
+
         </div>
 
 
 
-			<div class="clearfix"></div><br/><br/>
+			<div class="clearfix"></div><br/><br/><br/><br/>
 			</div>
 			<!-- END CONTENT -->
-
-
-
 		</div>
-
-
 	</div>
 	<!-- END OF CONTENT -->
-
       </div>
-
+<br /><br />
 
 	<!-- FOOTER -->
   <?php include '../../partials/footer.php';?>
-
-
 	<!-- Javascript  -->
 	<script src="../../assets/js/js-blog.js"></script>
 
