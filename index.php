@@ -40,7 +40,7 @@
     <!-- jQuery -->
     <script src="assets/js/jquery.v2.0.3.js"></script>
 
-    
+
     <script src="myassets/js/slider/DiagonalSlider.js"></script>
 
   </head>
@@ -55,17 +55,22 @@
 
         <div class="content_slider">
           <div class="gallery_content">
+
             <div class="gallery_item">
-              <img src="/updatedversion-master/myassets/images/slider/NIMUN_15.jpg" data-title="Image 1" width="1800px" height="300px"/>
+
+              <img src="/nimun/myassets/images/slider/NIMUN15.png" data-title="Image 1" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item">
-              <img src="/updatedversion-master/myassets/images/slider/NIMUN_16.jpg" data-title="Image 2" width="1800px" height="300px"/>
+              <img src="/nimun/myassets/images/slider/NIMUN16.png" data-title="Image 2" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item">
-              <img src="/updatedversion-master/myassets/images/slider/bahamas.jpg" data-title="Image 3" width="1800px" height="300px"/>
+              <img src="/nimun/myassets/images/slider/NIMUN15.png" data-title="Image 3" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item">
-              <img src="/updatedversion-master/myassets/images/slider/NIMUN_17.jpg" data-title="Image 4" width="1800px" height="300px"/>
+              <img src="/nimun/myassets/images/slider/NIMUN16.png" data-title="Image 4" width="1800px" height="300px"/>
+
+
+
             </div>
           </div>
         </div>
