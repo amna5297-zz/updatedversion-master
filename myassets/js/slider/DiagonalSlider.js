@@ -5,6 +5,8 @@ jQuery plugin to create diagonal slider
 */
 
 function loadSlider(slider,default_text){
+
+
     var w;
     var width = 0;
     var image_width = slider.find('.gallery_item img').width();
@@ -42,6 +44,17 @@ function loadSlider(slider,default_text){
     $('.content_slider').find('.content_title').css('margin-top',slider.height() - 200);
 
     slider.find('.gallery_item').unbind("hover");
+
+    var twentyseventeen = $("#lastitem");
+
+    zoomIn(twentyseventeen, function(){ });
+
+    $(".gallery_item").mouseleave(function(){
+      setTimeout(function(){
+          zoomIn($("#lastitem"), function(){ });
+      }, 5);
+    });
+
     slider.find('.gallery_item').hover(function(){
         var item = $(this);
         if (out){

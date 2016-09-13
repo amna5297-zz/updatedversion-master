@@ -1,0 +1,13 @@
+#ourteam.additionalpadding{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.mt-card-item{
+  border-color: white !important;
+}
+
+.hide-on-load{
+  display: none;
+}
