@@ -58,16 +58,16 @@
 
             <div class="gallery_item">
 
-              <img src="/nimun/myassets/images/slider/NIMUN_15.jpg" data-title="Image 1" width="1800px" height="300px"/>
+              <img src="/updatedversion-master/myassets/images/slider/NIMUN_15.jpg" data-title="Image 1" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item">
-              <img src="/nimun/myassets/images/slider/NIMUN_16.jpg" data-title="Image 2" width="1800px" height="300px"/>
+              <img src="/updatedversion-master/myassets/images/slider/NIMUN_16.jpg" data-title="Image 2" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item">
-              <img src="/nimun/myassets/images/slider/bahamas.jpg" data-title="Image 3" width="1800px" height="300px"/>
+              <img src="/updatedversion-master/myassets/images/slider/bahamas.jpg" data-title="Image 3" width="1800px" height="300px"/>
             </div>
             <div class="gallery_item" id="lastitem">
-              <img src="/nimun/myassets/images/slider/NIMUN_17.jpg" data-title="Image 4" width="1800px" height="300px"/>
+              <img src="/updatedversion-master/myassets/images/slider/NIMUN_17.jpg" data-title="Image 4" width="1800px" height="300px"/>
 
 
 
@@ -80,7 +80,7 @@
 
 
     <!-- WRAP -->
-    	<div class="wrap bgfix cstyle03">
+    	<div class="wrap bgfix cstyle12">
 
 
     		<div class="lastminute lcfix">
