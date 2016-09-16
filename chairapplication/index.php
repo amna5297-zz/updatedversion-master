@@ -61,7 +61,7 @@
         </script>
 
       <!-- BEGIN CONTENT BODY -->
-      <div class="page-content">
+      <div class="page-content" >
         <div class="padding">
           <!-- BEGIN PAGE TITLE-->
           <h3 class="page-title"> NIMUN | Chair Applications </h3>
