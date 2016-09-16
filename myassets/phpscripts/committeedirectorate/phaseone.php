@@ -26,16 +26,19 @@
     $accommodation=$_POST["accommodation"];
     $visarequirement=$_POST["visarequirement"];
 
+    $diet = $_POST["diet"];
+    $allergies = $_POST["allergies"];
+
     $_SESSION["email"]= $email;
 
     $dobs = $dob;
 
     // prepare and bind
 
-    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement, diet, allergies) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
     $stmt->bind_param("ssssssssssssssss", $fullname, $dobs,  $gender, $nationality,  $institute, $program, $address, $city,
-          $country, $munassociation, $email, $phone, $cnic, $skypeid, $accommodation, $visarequirement);
+          $country, $munassociation, $email, $phone, $cnic, $skypeid, $accommodation, $visarequirement, $diet, $allergies);
 
     /*
 
