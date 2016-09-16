@@ -792,7 +792,7 @@
 <div class="hide-on-load" id="registrationcomplete" style="min-height:1000px;">
 
     <h3 class="increasedlineheight">You have successfully registered as a committee chair. A confirmation email has been sent to the email address that you mentioned. We will be contacting you via the email address and the phone number that you entered in the form.</h3>
-    <h4><a href="/updatedversion-master/chairApplication.php">Click here </a>to head back to our home page.</h4>
+    <h4><a href="/nimun/chairApplication.php">Click here </a>to head back to our home page.</h4>
 </div>
 
 
