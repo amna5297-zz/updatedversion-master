@@ -505,7 +505,7 @@
                     <label>Dietary Requirements</label>
                   </div>
                   <div class="col-md-9">
-                    <input type="text" name="diet" class="form-control" />
+                    <input type="text" name="diet" class="form-control" value="none"/>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -513,7 +513,7 @@
                     <label>Allergies</label>
                   </div>
                   <div class="col-md-9">
-                    <input type="text" name="allergies" placeholder="(if any)" class="form-control" />
+                    <input type="text" name="allergies" placeholder="(if any)" class="form-control" value="none"/>
                   </div>
                 </div>
               </div>
@@ -645,10 +645,10 @@
                     <div class="col-md-12">
                       <label> Committee(First preference):</label>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                       <!-- <input class="form-control" name="committeefirstpreference"/> -->
                       <select class="form-control" name="committeefirstpreference">
-                        <optgroup label="General Assembly">
+                        <optgroup  label="General Assembly">
                           <option value="DISEC">Disarmament and International Security</option>
                           <option value="EcoFin">Economic and Financial Affairs</option>
                           <option value="SOCHUM">Social, Humanitarian and Cultural</option>
@@ -696,7 +696,7 @@
                     <div class="col-md-12">
                       <label> Committee(Second preference):</label>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                       <!-- <input class="form-control" name="committeesecondpreference"/> -->
                       <select class="form-control" name="committeesecondpreference" >
                         <optgroup label="General Assembly">
@@ -791,7 +791,7 @@
 
 <div class="hide-on-load" id="registrationcomplete" style="min-height:1000px;">
     <h3 class="increasedlineheight">You have successfully registered as a committee chair. A confirmation email has been sent to the email address that you mentioned. We will be contacting you via the email address and the phone number that you entered in the form.</h3>
-    <h4><a href="../">Click here </a>to head back to our home page.</h4>
+    <h4><a href="/updatedversion-master/chairApplication.php">Click here </a>to head back to our home page.</h4>
 </div>
 
 

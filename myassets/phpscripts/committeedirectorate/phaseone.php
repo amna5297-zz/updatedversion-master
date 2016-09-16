@@ -8,6 +8,7 @@
 
 
 
+
     $fullname=$_POST["fullname"];
     $dob=$_POST["dob"];
     $gender=$_POST["gender"];
@@ -27,7 +28,7 @@
 
     $_SESSION["email"]= $email;
 
-    $dobs="1992-01-02";
+    $dobs = date('Y-m-d H:i:s', $dob);
 
     // prepare and bind
 
@@ -50,6 +51,8 @@
         echo 'NOT added to db';
     }
 */
+
+
 
     $stmt->execute();
     $stmt->close();

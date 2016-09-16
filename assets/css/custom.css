@@ -1590,6 +1590,7 @@ background:url('../../images/slider/couple.png') no-repeat;
 
 /*CSS FOR DETAILS PAGE*/
 .pagecontainer2{ background:#fff; border:1px solid #cccccc;  box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); position:relative;}
+.pagecontainer2chair{ border:1px solid #cccccc;  box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); position:relative;}
 
 /*CSS FOR LIST PAGE*/
 .thebg{background:url('../../images/palmleafs.png') #f2f2f2 no-repeat top center;}
@@ -1627,6 +1628,11 @@ background:url('../../images/slider/couple.png') no-repeat;
 @media (min-width: 992px) {
 .breadcrub{margin-top:130px; color:#ccc;}
 }
+.breadcrubchair{margin-top:30px; }
+@media (min-width: 992px) {
+.breadcrubchair{margin-top:50px; }
+}
+
 .brlines{height:8px; width:100%; margin-top:10px; background:url('../../images/breadcrumb.png');}
 
 ul.bcrumbs {list-style:none; margin:0; padding:0;}
