@@ -40,7 +40,7 @@
 
   <style>
     body{
-      background-image: url("/nimun/myassets/images/chairApplication/parisbg2.jpg");
+      background-image: url("/updatedversion-master/myassets/images/chairApplication/parisbg2.jpg");
     }
   </style>
 
@@ -80,7 +80,7 @@
             We wish you best of luck!
             <br /><br/>
 
-            <a href="/nimun/chairapplication/index.php"><button type="button" class="btn btn-outline-secondary">Continue to Application</button></a>
+            <a href="/updatedversion-master/chairapplication/index.php"><button type="button" class="btn btn-outline-secondary">Continue to Application</button></a>
 
         </div>
 

@@ -94,6 +94,12 @@ $(document).ready(function(){
                     dataType: "text",
                     success: function( data ) {
 
+                            $.ajax({
+                                type: "POST",
+                                url:"../myassets/phpscripts/committeedirectorate/email.php"
+                            });
+
+
                             l.stop();
                             $("html, body").animate({ scrollTop: 0 }, "slow");
                             $("#step4").addClass("active");

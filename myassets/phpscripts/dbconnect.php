@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
     $dbusername = "root";
-    $password_db = "";
+    $password_db = "root";
     $dbname = "NIMUN";
 
     $conn = new mysqli($servername, $dbusername, $password_db, $dbname);

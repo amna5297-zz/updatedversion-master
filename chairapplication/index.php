@@ -772,7 +772,7 @@
                   <b>Note: </b>Once you click continue, you will not be able to edit your details. Recheck all the details that you have entered before pressing continue.
                 </p>
 
-                <button type="button" id="continuestepthree" class="btn btn-success mt-ladda-btn ladda-button" data-style="expand-right">
+                <button type="button" id="continuestepthree" class="btn btn-success mt-ladda-btn ladda-button" data-style="expand-right" style="float:right;">
                   <span class="ladda-label">Continue</span>
                   <span class="ladda-spinner"></span>
                   <div class="ladda-progress" style="width: 0px;"></div>
@@ -790,6 +790,7 @@
 </div>
 
 <div class="hide-on-load" id="registrationcomplete" style="min-height:1000px;">
+
     <h3 class="increasedlineheight">You have successfully registered as a committee chair. A confirmation email has been sent to the email address that you mentioned. We will be contacting you via the email address and the phone number that you entered in the form.</h3>
     <h4><a href="/updatedversion-master/chairApplication.php">Click here </a>to head back to our home page.</h4>
 </div>
