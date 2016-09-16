@@ -1,18 +1,13 @@
 <?php
 
-    sec_session_start();
-    $_SESSION["email"]= $email;
-
-    $email ="test@nimun.com.pk";
-    $password = "password";
+   
+    $email ="alifarooq96@gmail.com";
 
     $verificationlink = randomString();
 
-    $server_name = $_SERVER['SERVER_NAME'];
 
-
-    $path = $server_name.'.activation/activate.php?link='.$verificationlink.'&user='.$email;
-    $bodyContent = '<h1 style="color:blue;">.'$email'.</h1>';
+    $path = '.activation/activate.php?link='.$verificationlink.'&user='.$email;
+    $bodyContent = '<h1 style="color:blue;">.'.$email.'</h1>';
 
 
 
