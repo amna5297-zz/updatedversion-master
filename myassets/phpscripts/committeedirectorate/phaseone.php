@@ -28,13 +28,13 @@
 
     $_SESSION["email"]= $email;
 
-    $dobs = date('Y-m-d H:i:s', $dob);
+    $dobs = $dob;
 
     // prepare and bind
 
-    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)");
+    $stmt = $conn->prepare("INSERT INTO CommitteeDirectorate (fullname, dob, gender, nationality, institute, program, address, city, country, munassociation, email, phone, cnic, skypeid, accommodation, visarequirement) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-    $stmt->bind_param("sssssssssssssssss",       $fullname, $dobs,  $gender, $nationality,  $institute, $program, $address, $city,
+    $stmt->bind_param("ssssssssssssssss", $fullname, $dobs,  $gender, $nationality,  $institute, $program, $address, $city,
           $country, $munassociation, $email, $phone, $cnic, $skypeid, $accommodation, $visarequirement);
 
     /*
