@@ -65,6 +65,7 @@ nav ul li {
   will-change: transform;
   background-color: #666;
   border:1px solid #021a40;
+  background-position: center center;
   background-image: url("/updatedversion-master/myassets/images/chairApplication/parisbg.jpg");
   background-size: cover;
   left: 0;
