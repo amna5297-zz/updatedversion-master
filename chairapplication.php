@@ -40,7 +40,7 @@
 
   <style>
     body{
-      background-image: url("/updatedversion-master/myassets/images/chairApplication/parisbg2.jpg");
+      background-image: url("/updatedversion-master/myassets/images/chairApplication/parisbg4.jpg");
     }
   </style>
 
